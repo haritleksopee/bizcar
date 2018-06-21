@@ -1,0 +1,87 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 20/06/2018 11:11
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-line-logo:before { content: "\f100"; }
+.flaticon-phone-receiver:before { content: "\f101"; }
+.flaticon-speedometer:before { content: "\f102"; }
+.flaticon-rounded-add-button:before { content: "\f103"; }
+.flaticon-picture:before { content: "\f104"; }
+.flaticon-drop-silhouette:before { content: "\f105"; }
+.flaticon-map-pin-marked:before { content: "\f106"; }
+.flaticon-gearbox:before { content: "\f107"; }
+.flaticon-star:before { content: "\f108"; }
+.flaticon-facebook-logo-button:before { content: "\f109"; }
+.flaticon-settings-work-tool:before { content: "\f10a"; }
+.flaticon-pencil-striped-symbol-for-interface-edit-buttons:before { content: "\f10b"; }
+.flaticon-signing-the-contract:before { content: "\f10c"; }
+.flaticon-percentage:before { content: "\f10d"; }
+.flaticon-user:before { content: "\f10e"; }
+.flaticon-manager:before { content: "\f10f"; }
+.flaticon-checked:before { content: "\f110"; }
+.flaticon-car-seat:before { content: "\f111"; }
+.flaticon-volkswagen-car-side-view:before { content: "\f112"; }
+.flaticon-car-steering-wheel:before { content: "\f113"; }
+.flaticon-sports-car:before { content: "\f114"; }
+.flaticon-cancel:before { content: "\f115"; }
+.flaticon-calendar:before { content: "\f116"; }
+.flaticon-advertising:before { content: "\f117"; }
+    
+    $font-Flaticon-line-logo: "\f100";
+    $font-Flaticon-phone-receiver: "\f101";
+    $font-Flaticon-speedometer: "\f102";
+    $font-Flaticon-rounded-add-button: "\f103";
+    $font-Flaticon-picture: "\f104";
+    $font-Flaticon-drop-silhouette: "\f105";
+    $font-Flaticon-map-pin-marked: "\f106";
+    $font-Flaticon-gearbox: "\f107";
+    $font-Flaticon-star: "\f108";
+    $font-Flaticon-facebook-logo-button: "\f109";
+    $font-Flaticon-settings-work-tool: "\f10a";
+    $font-Flaticon-pencil-striped-symbol-for-interface-edit-buttons: "\f10b";
+    $font-Flaticon-signing-the-contract: "\f10c";
+    $font-Flaticon-percentage: "\f10d";
+    $font-Flaticon-user: "\f10e";
+    $font-Flaticon-manager: "\f10f";
+    $font-Flaticon-checked: "\f110";
+    $font-Flaticon-car-seat: "\f111";
+    $font-Flaticon-volkswagen-car-side-view: "\f112";
+    $font-Flaticon-car-steering-wheel: "\f113";
+    $font-Flaticon-sports-car: "\f114";
+    $font-Flaticon-cancel: "\f115";
+    $font-Flaticon-calendar: "\f116";
+    $font-Flaticon-advertising: "\f117";
