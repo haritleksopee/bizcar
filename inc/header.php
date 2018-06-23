@@ -9,12 +9,13 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- ICON -->
-    <!-- <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logofav.png" > -->
-    <!-- <link rel="apple-touch-icon" sizes="76x76" href="assets/images/logofav.png"> -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/RODUSEDJINGJAI LOGO.png" >
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/RODUSEDJINGJAI LOGO.png">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
 
     <link rel="stylesheet" type="text/css" href="node_modules/font-awesome/css/font-awesome.min.css">
 

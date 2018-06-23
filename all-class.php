@@ -96,22 +96,22 @@
         <div class="row">
           <div class="col-lg-6 my-5">
             <form>
-              <div class="btn-group">
+              <div class="btn-group w-100">
                 <button type="button" class="btn btn-facebook">
                   <i class="fa fa-facebook" aria-hidden="true"></i>
                 </button>
-                <button type="button" class="btn btn-facebook">Sign in with Facebook</button>
+                <button type="button" class="btn btn-facebook w-100">Sign in with Facebook</button>
               </div>
             </form>
           </div>
 
           <div class="col-lg-6 my-5">
             <form>
-              <div class="btn-group">
+              <div class="btn-group w-100">
                 <button type="button" class="btn btn-gmail">
                   <i class="fa fa-google-plus" aria-hidden="true"></i>
                 </button>
-                <button type="button" class="btn btn-gmail">Sign in with Google+</button>
+                <button type="button" class="btn btn-gmail w-100">Sign in with Google+</button>
               </div>
             </form>
           </div>

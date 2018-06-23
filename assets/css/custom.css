@@ -92,6 +92,21 @@ a:hover {
 .text-purple {
   color: #480784;
 }
+.star-yellow {
+  color: #f3b70a!important;
+}
+.cursor-pointer {
+  cursor: pointer!important;
+}
+.text-gray {
+  color: #9E9E9E;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-25 {
+  font-size: 25px;
+}
 .input-from-bottom {
   width: 100%;
   border-radius: 0px;
@@ -154,7 +169,6 @@ a:hover {
 /*----------- YELLOW -----------*/
 .btn-yellow {
     height: 51px;
-    min-width: 218px;
     color: #eab40f;
     font-size: 18px;
     font-weight: 400;
@@ -173,7 +187,10 @@ a:hover {
 .btn-yellow:hover {
     color: #eab40f;
 }
-
+.btn-yellow:active {
+    border-bottom: none;
+    transition: all 5s;
+}
 .btn-yellow .hover-bg {
     color: #000;
     display: block;
@@ -333,6 +350,7 @@ NAVBAR
 } 
 .navbar-language:hover {
     opacity: 0.5;
+    transition: 0.2s;
 } 
 .navbar-language-active {
     opacity: 0.5;
@@ -369,6 +387,173 @@ footer {
 END FOOTER
 --------------------------------------*/
 
+/*------------------------------------
+HOME
+--------------------------------------*/
+.home-carousel-img {
+    position: relative;
+    overflow: hidden;
+    height: 525px;
+}
+.home-carousel-auto {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+
+.home-card-black {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 0px!important;
+}
+.home-card-top {
+    margin-top: -150px;
+    border-radius: 0px;
+}
+
+.ui-widget-header {
+    border: 1px solid #dddddd;
+    background: #480784;
+    color: #333333;
+    font-weight: bold;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+    border: 5px solid #480784;
+    background: #f6f6f6;
+    font-weight: normal;
+    color: #454545;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    top: -11px;
+}
+.ui-widget.ui-widget-content {
+    border: none;
+    background-color: #d0d0d0;
+    border-radius: 30px;
+}
+.home-head-product {
+    padding: 18px;
+    height: 60px;
+}
+.home-porduct-img {
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.home-img-porduct {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.home-btn-yollow {
+    padding-left: 15%;
+    width: 20%;
+}
+.home-btn-reset {
+    margin-left: -70px;
+}
+.home-hover-text {
+   width: 70%;
+}
+.home-star:before {
+    content: "\f005";
+}
+.home-icon-list .home-hover a .home {
+    width: 32px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px; 
+}
+/*------------------------------------
+END HOME
+--------------------------------------*/
+
+
+/*-------------------------------------
+FAVORITES
+---------------------------------------*/
+
+.favorites-img-fix {
+    position: relative;
+    overflow: hidden;
+    height: 225px;
+    background-color: #eee;
+}
+.favorites-fix-img {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.favorites-border-left {
+    border-left: 15px solid #480784;
+}
+.favorites-btn-show {
+    margin-top: 33px;
+    height: 55px;
+    width: 250px;
+    padding-left: 200px;
+}
+.favorites-btn-size {
+    width: 80%;
+}
+.favorites-close-position {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.favorites-btn-close {
+    background-color: #a5a5a5;
+    width: 25px;
+    height: 25px;
+    padding-left: 6px;
+    border-radius: 25px;
+    color: #fff;
+}
+.favorites-font-25 {
+    font-size: 25px;
+}
+/*-------------------------------------
+END FAVORITES
+---------------------------------------*/
+/*-------------------------------------
+BOOKING-HISTORY 
+---------------------------------------*/
+.booking-20 {
+    font-size: 20px;
+    overflow: hidden;
+    height: 35px;
+}
+.booking-card {
+    border: none;
+    background-color: #ffc721;
+    border-radius: 0px;
+    overflow: hidden;
+    height: 130px;
+}
+.booking-img-fix {
+    position: relative;
+    overflow: hidden;
+    height: 175px;
+    background-color: #eee;
+}
+.booking-text-point {
+    font-weight: 600;
+    margin-top: 15px;
+}
+/*-------------------------------------
+END BOOKING-HISTORY 
+---------------------------------------*/
+
 
 @media(max-width: 1366px){
   /*-----------------------
@@ -381,6 +566,18 @@ END FOOTER
   /*-----------------------
   END NAVBAR 1366
   -------------------------*/
+
+  /*-----------------------
+  HOME 1366
+  ------------------------*/
+  .home-carousel-img {
+      position: relative;
+      overflow: hidden;
+      height: 490px;
+  }
+  /*-----------------------
+  END HOME 1366
+  ------------------------*/
 }
 
 
@@ -411,9 +608,62 @@ END FOOTER
       font-weight: 300;
       line-height: 37px;
   }
+
   /*-----------------------
   END FOOTER 1024
   -------------------------*/
+
+  /*----------------------
+  HOME 1024
+  ------------------------*/
+  .home-carousel-img {
+      position: relative;
+      overflow: hidden;
+      height: 370px;
+  }
+  .home-card-top {
+      margin-top: -110px;
+      border-radius: 0px;
+  }
+  /*----------------------
+  END HOME 1024
+  ------------------------*/
+  /*-----------------------
+  BOOKING HISTORY 1024
+  -------------------------*/
+  .booking-img-fix {
+      position: relative;
+      overflow: hidden;
+      height: 140px;
+      background-color: #eee;
+      margin-top: 20px;
+  }
+  .booking-20 {
+      font-size: 18px;
+      overflow: hidden;
+      height: 35px;
+  }
+  /*-----------------------
+  END BOOKING HISTORY 1024
+  -------------------------*/
+  /*-----------------------
+  FAVIRITES 1024
+  ------------------------*/
+  .favorites-btn-show {
+      margin-top: 5px;
+      height: 55px;
+      width: 250px;
+      padding-left: 200px;
+  }
+  .favorites-img-fix {
+      position: relative;
+      overflow: hidden;
+      height: 180px;
+      background-color: #eee;
+  }
+  /*-----------------------
+  END FAVIRITES 1024
+  ------------------------*/
 }
 
 
@@ -438,7 +688,7 @@ END FOOTER
   .footer-barnd {
       position: relative;
       width: 50%;
-      margin: AUTO;
+      margin: auto;
       height: 145px;
       overflow: hidden;
       margin-top: -35px;
@@ -452,10 +702,91 @@ END FOOTER
   /*-----------------------
   END FOOTER 768
   -------------------------*/
+
+  /*--------------------------
+  HOME 768
+  ----------------------------*/
+  .home-btn-yollow {
+      padding-left: 23%;
+      width: 30%;
+  }
+  .home-carousel-img {
+      position: relative;
+      overflow: hidden;
+      height: 280px;
+  }
+  .home-card-top {
+      margin-top: 30px;
+      border-radius: 0px;
+  }
+  /*--------------------------
+  END HOME 768
+  ----------------------------*/
+  /*---------------------------
+  FAVORITES 768
+  -----------------------------*/
+  .favorites-img-fix {
+      position: relative;
+      overflow: hidden;
+      height: 350px;
+      background-color: #eee;
+  }
+  .favorites-border-left {
+      border-left: 20px solid #480784;
+      padding: 0px 35px;
+  }
+  .favorites-close-position {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+  }
+  /*---------------------------
+  END FAVORITES 768
+  -----------------------------*/
+
+  /*---------------------------
+  BOOKING HISTORRY 768
+  -----------------------------*/
+  .booking-card {
+      border: none;
+      background-color: #ffc721;
+      border-radius: 0px;
+      overflow: hidden;
+      height: 130px;
+      margin-top: 40px!important;
+  }
+  .booking-top-md {
+      margin-top: 15px;
+  }
+  .booking-img-fix {
+      position: relative;
+      overflow: hidden;
+      height: 440px;
+      background-color: #eee;
+      margin-top: 20px;
+  }
+  .booking-head-h {
+      height: 60px!important;
+  }
+  /*---------------------------
+  END BOOKING HISTORRY 768
+  -----------------------------*/
 }
 
 
 @media(max-width: 414px){
+
+  /*-----------------------
+  ALL CLASS 414
+  ------------------------*/
+  .text-btn-purple {
+      margin-left: -40px;
+      position: absolute;
+      transform: skew(25deg);
+  }
+  /*-----------------------
+  END ALL CLASS 414
+  ------------------------*/
   /*-----------------------
   NAVBAR 414
   -------------------------*/
@@ -497,10 +828,80 @@ END FOOTER
     overflow: hidden;
     margin-top: -40px;
     margin-bottom: 0px;
-}
+  }
   /*-----------------------
   END FOOTER 414
   -------------------------*/
+  /*-----------------------
+  HOME 414
+  -------------------------*/
+  .home-btn-yollow {
+      padding-left: 80%;
+      width: 100%;
+  }
+  .home-carousel-img {
+      position: relative;
+      overflow: hidden;
+      height: 150px;
+  }
+  /*-----------------------
+  END HOME 414
+  -------------------------*/
+  /*---------------------------
+  FAVORITES 414
+  -----------------------------*/
+  .favorites-border-left {
+      border-left: 10px solid #480784;
+      padding: 0px 10px;
+      margin-top: 35px;
+  }
+  .favorites-img-fix {
+      position: relative;
+      overflow: hidden;
+      height: 210px;
+      background-color: #eee;
+  }
+  .favorites-font-h3 {
+      font-size: 20px;
+  }
+  .favorites-font-25 {
+      font-size: 20px;
+  }
+  .favorites-btn-show {
+      margin-top: 33px;
+      height: 50px;
+      width: 100%;
+      padding-left: 250px;
+  }
+  /*---------------------------
+  END FAVORITES 414
+  -----------------------------*/
+
+  /*---------------------------
+  BOOKING HISTORY 414
+  -----------------------------*/
+  .booking-card {
+      border: none;
+      background-color: #ffc721;
+      border-radius: 0px;
+      overflow: hidden;
+      height: 70px;
+      margin-top: 10px!important;
+  }
+  .booking-text-point {
+      font-weight: 600;
+      margin-top: -11px;
+  }
+  .booking-img-fix {
+      position: relative;
+      overflow: hidden;
+      height: 225px;
+      background-color: #eee;
+      margin-top: 20px;
+  }
+  /*---------------------------
+  END BOOKING HISTORY 414
+  -----------------------------*/
 }
 
 @media(max-width: 375px){
@@ -519,6 +920,61 @@ END FOOTER
   /*-----------------------
   END NAVBAR 375
   -------------------------*/
+
+  /*-----------------------
+  HOME 375
+  -------------------------*/
+  .home-btn-yollow {
+      padding-left: 83%;
+      width: 100%;
+  }
+  .home-carousel-img {
+      position: relative;
+      overflow: hidden;
+      height: 135px;
+  }
+  /*-----------------------
+  END HOME 375
+  -------------------------*/
+  /*---------------------------
+  FAVORITES 375
+  -----------------------------*/
+  .favorites-font-h3 {
+      font-size: 17px;
+  }
+  .favorites-font-25 {
+      font-size: 16px;
+  }
+  .favorites-btn-show {
+      margin-top: 25px;
+      height: 50px;
+      width: 100%;
+      padding-left: 225px;
+      font-size: 14px;
+  }
+  .favorites-img-fix {
+      position: relative;
+      overflow: hidden;
+      height: 180px;
+      background-color: #eee;
+  }
+  /*---------------------------
+  END FAVORITES 375
+  -----------------------------*/
+
+  /*---------------------------
+  BOOKING HISTORY 375
+  -----------------------------*/
+  .booking-img-fix {
+      position: relative;
+      overflow: hidden;
+      height: 200px;
+      background-color: #eee;
+      margin-top: 20px;
+  }
+  /*---------------------------
+  END BOOKING HISTORY 375
+  -----------------------------*/
 }
 
 @media(max-width: 320px){
@@ -534,7 +990,90 @@ END FOOTER
       -webkit-box-direction: unset;
       padding: 0px 15px;
   }
+  .home-carousel-img {
+      position: relative;
+      overflow: hidden;
+      height: 115px;
+  }
+  .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+      border: 3px solid #480784;
+      background: #f6f6f6;
+      font-weight: normal;
+      color: #454545;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      top: -4px;
+  }
   /*-----------------------
   END NAVBAR 320
   -------------------------*/
+    .font-25 {
+        font-size: 18px;
+    }
+    .home-ml--60 {
+        margin-left: -49px;
+    }
+    .home-width-responsive {
+        width: 90%!important;
+    }
+    .home-padding-320 {
+        padding-left: 83%;
+        min-width: 100%;
+    }
+  /*-----------------------
+  HOME 320
+  -------------------------*/
+  /*---------------------------
+  FAVORITES 320
+  -----------------------------*/
+   .favorites-border-left {
+        border-left: 4px solid #480784;
+        padding: 0px 5px;
+         margin-top: 20px;
+    }
+    .favorites-btn-show {
+      margin-top: 25px;
+      height: 50px;
+      width: 100%;
+      padding-left: 175px;
+      font-size: 14px;
+  }
+  .favorites-img-fix {
+      position: relative;
+      overflow: hidden;
+      height: 150px;
+      background-color: #eee;
+  }
+  .favorites-close-position {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+  }
+  .favorites-btn-close {
+      background-color: #a5a5a5;
+      width: 20px;
+      height: 20px;
+      padding-left: 5px;
+      border-radius: 25px;
+      color: #fff;
+      font-size: 13px;
+  }
+  /*---------------------------
+  END FAVORITES 320
+  -----------------------------*/
+
+  /*---------------------------
+  BOOKING HISTORY 320
+  -----------------------------*/
+  .booking-img-fix {
+      position: relative;
+      overflow: hidden;
+      height: 160px;
+      background-color: #eee;
+      margin-top: 15px;
+  }
+  /*---------------------------
+  END BOOKING HISTORY 320
+  -----------------------------*/
 }

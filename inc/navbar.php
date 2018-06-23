@@ -25,7 +25,7 @@
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark bg-purple">
     <div class="container">
       <div class="navbar-logo-frame">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="home.php">
             <img class="navbar-logo-img" src="assets/images/RODUSEDJINGJAI LOGO.png">
         </a>
       </div>
@@ -35,7 +35,7 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item navbar-widtd">
-            <a class="nav-link navbar-text-link" href="#">หน้าหลัก</a>
+            <a class="nav-link navbar-text-link" href="home.php">หน้าหลัก</a>
           </li>
           <li class="nav-item navbar-widtd">
             <a class="nav-link navbar-text-link" href="#">เกี่ยวกับเรา</a>
