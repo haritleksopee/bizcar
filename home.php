@@ -16,17 +16,17 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="home-carousel-img">
-            <img class="d-block w-100 home-img-porduct" src="assets/images/slider_1_3-1.png" alt="First slide">
+            <img class="d-block w-100 home-carousel-auto" src="assets/images/slider_1_3-1.png" alt="First slide">
           </div>
         </div>
         <div class="carousel-item">
           <div class="home-carousel-img">
-            <img class="d-block w-100 home-img-porduct" src="assets/images/slider_1_3-1.png" alt="Second slide">
+            <img class="d-block w-100 home-carousel-auto" src="assets/images/slider_1_3-1.png" alt="Second slide">
           </div>
         </div>
         <div class="carousel-item">
           <div class="home-carousel-img">
-            <img class="d-block w-100 home-img-porduct" src="assets/images/slider_1_3-1.png" alt="Third slide">
+            <img class="d-block w-100 home-carousel-auto" src="assets/images/panter.jpg" alt="Third slide">
           </div>
         </div>
       </div>
