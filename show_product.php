@@ -197,7 +197,9 @@
           <!-- vehicle 1 -->
             <div class="col-12 col-sm-6 col-lg-4">
               <div class="card card-all mb-2">
-                <a href="#"><img class="card-img-top border-radius-none" src="assets/images/gallardo-0638.jpg" alt="Card image cap"></a>
+                <div class="show-product-fix-img">
+                  <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/383524.jpg" alt="Card image cap"></a>
+                </div>
                 <div class="card-body px-0">
                   <div class="card-head-content">
                     <h5 class="card-title text-purple">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
@@ -219,7 +221,7 @@
                   <div class="wishlist">
                     <div class="wish-position">
                       <label class="star-wish">
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i  onclick="myFunction(this)" class="fa fa-star-o" aria-hidden="true"></i>
                       </label>
                     </div>
                   </div>
@@ -267,7 +269,9 @@
           <!-- vehicle 2 -->
             <div class="col-12 col-sm-6 col-lg-4">
               <div class="card card-all mb-2">
-                <a href="#"><img class="card-img-top border-radius-none" src="https://www.matichon.co.th/wp-content/uploads/2017/05/89565.jpg" alt="Card image cap"></a>
+                <div class="show-product-fix-img">
+                  <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/383524.jpg" alt="Card image cap"></a>
+                </div>
                 <div class="card-body px-0">
                   <div class="card-head-content">
                     <h5 class="card-title text-purple">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
@@ -289,7 +293,7 @@
                   <div class="wishlist">
                     <div class="wish-position">
                       <label class="star-wish">
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i  onclick="myFunction(this)" class="fa fa-star-o" aria-hidden="true"></i>
                       </label>
                     </div>
                   </div>
@@ -337,7 +341,9 @@
           <!-- vehicle 3 -->
             <div class="col-12 col-sm-6 col-lg-4">
               <div class="card card-all mb-2">
-                <a href="#"><img class="card-img-top border-radius-none" src="http://www.thaicarlover.com/wp-content/uploads/2017/04/Baojun-560.jpeg" alt="Card image cap"></a>
+                <div class="show-product-fix-img">
+                  <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/Baojun-560.jpeg" alt="Card image cap"></a>
+                </div>
                 <div class="card-body px-0">
                   <div class="card-head-content">
                     <h5 class="card-title text-purple">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
@@ -359,7 +365,7 @@
                   <div class="wishlist">
                     <div class="wish-position">
                       <label class="star-wish">
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i  onclick="myFunction(this)" class="fa fa-star-o" aria-hidden="true"></i>
                       </label>
                     </div>
                   </div>
@@ -407,7 +413,9 @@
           <!-- vehicle 4 -->
             <div class="col-12 col-sm-6 col-lg-4">
               <div class="card card-all mb-2">
-                <a href="#"><img class="card-img-top border-radius-none" src="https://www.matichon.co.th/wp-content/uploads/2017/05/89565.jpg" alt="Card image cap"></a>
+                <div class="show-product-fix-img">
+                  <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/383524.jpg" alt="Card image cap"></a>
+                </div>
                 <div class="card-body px-0">
                   <div class="card-head-content">
                     <h5 class="card-title text-purple">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
@@ -429,7 +437,7 @@
                   <div class="wishlist">
                     <div class="wish-position">
                       <label class="star-wish">
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i  onclick="myFunction(this)" class="fa fa-star-o" aria-hidden="true"></i>
                       </label>
                     </div>
                   </div>
@@ -477,7 +485,9 @@
           <!-- vehicle 5 -->
             <div class="col-12 col-sm-6 col-lg-4">
               <div class="card card-all mb-2">
-                <a href="#"><img class="card-img-top border-radius-none" src="https://www.autodeft.com/_files/images/full/2015-06-17/704E2NDR.jpg" alt="Card image cap"></a>
+                <div class="show-product-fix-img">
+                  <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/Baojun-560.jpeg" alt="Card image cap"></a>
+                </div>
                 <div class="card-body px-0">
                   <div class="card-head-content">
                     <h5 class="card-title text-purple">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
@@ -499,7 +509,7 @@
                   <div class="wishlist">
                     <div class="wish-position">
                       <label class="star-wish">
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i  onclick="myFunction(this)" class="fa fa-star-o" aria-hidden="true"></i>
                       </label>
                     </div>
                   </div>
@@ -547,7 +557,9 @@
           <!-- vehicle 6 -->
             <div class="col-12 col-sm-6 col-lg-4">
               <div class="card card-all mb-2">
-                <a href="#"><img class="card-img-top border-radius-none" src="assets/images/gallardo-0638.jpg" alt="Card image cap"></a>
+                <div class="show-product-fix-img">
+                  <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/704E2NDR.jpg" alt="Card image cap"></a>
+                </div>
                 <div class="card-body px-0">
                   <div class="card-head-content">
                     <h5 class="card-title text-purple">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
@@ -569,7 +581,7 @@
                   <div class="wishlist">
                     <div class="wish-position">
                       <label class="star-wish">
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i  onclick="myFunction(this)" class="fa fa-star-o" aria-hidden="true"></i>
                       </label>
                     </div>
                   </div>
@@ -617,7 +629,9 @@
           <!-- vehicle 7 -->
             <div class="col-12 col-sm-6 col-lg-4">
               <div class="card card-all mb-2">
-                <a href="#"><img class="card-img-top border-radius-none" src="assets/images/gallardo-0638.jpg" alt="Card image cap"></a>
+                <div class="show-product-fix-img">
+                  <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/704E2NDR.jpg" alt="Card image cap"></a>
+                </div>
                 <div class="card-body px-0">
                   <div class="card-head-content">
                     <h5 class="card-title text-purple">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
@@ -639,7 +653,7 @@
                   <div class="wishlist">
                     <div class="wish-position">
                       <label class="star-wish">
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i  onclick="myFunction(this)" class="fa fa-star-o" aria-hidden="true"></i>
                       </label>
                     </div>
                   </div>
@@ -687,7 +701,9 @@
           <!-- vehicle 8 -->
             <div class="col-12 col-sm-6 col-lg-4">
               <div class="card card-all mb-2">
-                <a href="#"><img class="card-img-top border-radius-none" src="https://www.autodeft.com/_files/images/full/2015-06-17/704E2NDR.jpg" alt="Card image cap"></a>
+                <div class="show-product-fix-img">
+                  <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/383524.jpg" alt="Card image cap"></a>
+                </div>
                 <div class="card-body px-0">
                   <div class="card-head-content">
                     <h5 class="card-title text-purple">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
@@ -709,7 +725,7 @@
                   <div class="wishlist">
                     <div class="wish-position">
                       <label class="star-wish">
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i onclick="myFunction(this)" class="fa fa-star-o" aria-hidden="true"></i>
                       </label>
                     </div>
                   </div>
@@ -757,7 +773,9 @@
           <!-- vehicle 9 -->
             <div class="col-12 col-sm-6 col-lg-4">
               <div class="card card-all mb-2">
-                <a href="#"><img class="card-img-top border-radius-none" src="assets/images/gallardo-0638.jpg" alt="Card image cap"></a>
+                <div class="show-product-fix-img">
+                  <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/704E2NDR.jpg" alt="Card image cap"></a>
+                </div>
                 <div class="card-body px-0">
                   <div class="card-head-content">
                     <h5 class="card-title text-purple">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
@@ -779,7 +797,7 @@
                   <div class="wishlist">
                     <div class="wish-position">
                       <label class="star-wish">
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i onclick="myFunction(this)" class="fa fa-star-o" aria-hidden="true"></i>
                       </label>
                     </div>
                   </div>
@@ -871,7 +889,7 @@
                   <div class="wishlist">
                     <div class="wish-position">
                       <label class="star-wish">
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i onclick="myFunction(this)" class="fa fa-star-o" aria-hidden="true"></i>
                       </label>
                     </div>
                   </div>
@@ -941,7 +959,7 @@
                   <div class="wishlist">
                     <div class="wish-position">
                       <label class="star-wish">
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i onclick="myFunction(this)" class="fa fa-star-o" aria-hidden="true"></i>
                       </label>
                     </div>
                   </div>
@@ -1031,7 +1049,7 @@
                   <div class="wishlist">
                     <div class="wish-position">
                       <label class="star-wish">
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i onclick="myFunction(this)" class="fa fa-star-o" aria-hidden="true"></i>
                       </label>
                     </div>
                   </div>
@@ -1101,7 +1119,7 @@
                   <div class="wishlist">
                     <div class="wish-position">
                       <label class="star-wish">
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i onclick="myFunction(this)" class="fa fa-star-o" aria-hidden="true"></i>
                       </label>
                     </div>
                   </div>
@@ -1171,7 +1189,7 @@
                   <div class="wishlist">
                     <div class="wish-position">
                       <label class="star-wish">
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i onclick="myFunction(this) class="fa fa-star-o" aria-hidden="true"></i>
                       </label>
                     </div>
                   </div>
@@ -1241,7 +1259,7 @@
                   <div class="wishlist">
                     <div class="wish-position">
                       <label class="star-wish">
-                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i onclick="myFunction(this)" class="fa fa-star-o" aria-hidden="true"></i>
                       </label>
                     </div>
                   </div>

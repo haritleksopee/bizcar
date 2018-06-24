@@ -421,6 +421,7 @@ END FOOTER
 /*------------------------------------
 HOME
 --------------------------------------*/
+
 .home-carousel-img {
     position: relative;
     overflow: hidden;
@@ -707,7 +708,10 @@ END BOOKING-HISTORY
     transform: rotate(45deg);
 }
 
-
+.show-product-fix-img {
+    overflow: hidden;
+    height: 230px;
+}
 /*----------------------- Wishlist ------------------------*/
 .wishlist{
   position: relative;
@@ -1047,6 +1051,13 @@ a:active {
   END FAVIRITES 1024
   ------------------------*/
 
+/*---------- SHOW PRODUCT 1024 -----*/
+.show-product-fix-img {
+    overflow: hidden;
+    height: 190px;
+}
+/*------- END SHOW PRODUCT 1024 -----*/
+
 
 
 /*--------- start button -----------*/
@@ -1175,6 +1186,14 @@ a:active {
   /*---------------------------
   END BOOKING HISTORRY 768
   -----------------------------*/
+
+  /*----------- SHOW-PRODUCT 768 -------*/
+  .show-product-fix-img {
+      overflow: hidden;
+      height: 220px;
+  }
+  /*-----------END SHOW-PRODUCT 768 -------*/
+
   /*--------- start button -----------*/
     .btn-small {
         min-width: 150px;
@@ -1321,6 +1340,13 @@ a:active {
   /*---------------------------
   END BOOKING HISTORY 414
   -----------------------------*/
+
+/*--------- SHOW PRODUCT 414 ---------*/
+  .show-product-fix-img {
+      overflow: hidden;
+      height: 225px;
+  }
+/*------- END SHOW PRODUCT 414 ---------*/
 
 /*------------ start tabs -----------*/
     .sort-product {
@@ -1543,4 +1569,11 @@ a:active {
       height: 160px;
   }
   /*------ END COMPARE 320 -----------*/
+
+  /*------ SHOW PRODUCT 320 ----------*/
+  .show-product-fix-img {
+      overflow: hidden;
+      height: 170px;
+  }
+  /*------ END SHOW PRODUCT 320 ----------*/
 }
