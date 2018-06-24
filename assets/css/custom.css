@@ -95,6 +95,37 @@ a:hover {
 .star-yellow {
   color: #f3b70a!important;
 }
+
+.text-small{
+    font-size: small;
+}
+
+.text-medium{
+    font-size: medium;
+}
+
+.bg-white{
+    background-color: #ffffff;
+}
+
+.bg-gray{
+    background-color: #eaeaea;
+}
+
+
+._black{
+    background-color: #000000;
+    border: 2px solid #000000;
+    color: #fff;
+}
+
+._purple{
+    background-color: #480784;
+    border: 2px solid #480784;
+    color: #fff;
+}
+
+
 .cursor-pointer {
   cursor: pointer!important;
 }
@@ -442,15 +473,16 @@ HOME
 .home-porduct-img {
     position: relative;
     overflow: hidden;
-    height: 250px;
+    height: 230px;
     margin-bottom: 10px;
 }
 .home-img-porduct {
     position: absolute;
     width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% ,-50%);
+/*    top: 50%;
+    left: 50%;*/
+    transform: translate(0% ,0%);
+    height: auto;
 }
 .home-btn-yollow {
     padding-left: 15%;
@@ -555,6 +587,350 @@ END BOOKING-HISTORY
 ---------------------------------------*/
 
 
+/*--------------------------------------------------
+---------------- show product ---------------------
+--------------------------------------------------*/
+
+.heading-title {
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+}
+
+.full-search{
+  border: 1px solid #495057;
+  padding: 20px 15px;
+}
+
+.mx-15{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+
+.tabs-product{
+  position: relative;
+}
+
+.sort-product{
+  position: absolute;
+  right: 0;
+  display: flex;
+}
+
+.sort-product .selected-class{
+  border:unset;
+  height: 40px;
+    padding-right: 35px !important;
+    padding-left: 5px !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #480784;
+    background-color: #fff;
+    border-bottom: 3px solid #480784;
+    border-color: unset;
+ }
+
+.nav-tabs .nav-link {
+    border: 0px solid transparent;
+ }
+
+.nav-tabs .nav-item a{
+  color: #333333;
+}
+
+/* Checkbox */
+.check-compare {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.check-compare input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    background-color: #ffffff;
+    border: 1px solid #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.check-compare:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check-compare input:checked ~ .checkmark {
+    background-color: #28a745;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.check-compare input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.check-compare .checkmark:after {
+    left: 6px;
+    top: 1px;
+    width: 8px;
+    height: 14px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/*----------------------- Wishlist ------------------------*/
+.wishlist{
+  position: relative;
+  padding-left: 25px;
+}
+.wish-position{
+  position: absolute;
+  top: -4px;
+  right: 0;
+}
+.star-wish{
+  cursor: pointer;
+  color: #818182;
+}
+
+.show-list-detail{
+  list-style: none;
+    -webkit-padding-start: 0px;
+    margin-bottom: 0px;
+}
+
+.show-list-detail .list-item{
+    color: #777;
+    margin-top: 2px;
+}
+
+/*---------------------- Button ----------------------------*/
+
+.btn-small{
+    min-width: 160px;
+}
+
+.btn-small .text-btn-purple{
+    margin-left: -32px;
+}
+
+.btn-close{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background-color: #480784;
+    color: #ffffff;
+    width: 26px;
+    height: 26px;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 5;
+}
+/*------------------------- accordian --------------------------*/
+
+a:focus,
+a:hover,
+a:active {
+  outline: 0;
+  text-decoration: none;
+}
+
+.panel {
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #fff;
+  background: none;
+  box-shadow: none;
+}
+
+.panel:last-child {
+  border-bottom: none;
+}
+
+.panel-group > .panel:first-child .panel-heading {
+  border-radius: 4px 4px 0 0;
+}
+
+.panel-group .panel {
+  border-radius: 0;
+}
+
+.panel-group .panel + .panel {
+  margin-top: 0;
+}
+
+.panel-heading {
+    border-radius: 0;
+    border-top: 1px solid #ccc;
+    color: #fff;
+    padding: 0;
+}
+
+.panel-title a {
+    display: block;
+    color: #480784;
+    padding: 15px;
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.panel-body {
+  background: #fff;
+}
+
+.panel:last-child .panel-body {
+  border-radius: 0 0 4px 4px;
+}
+
+.panel:last-child .panel-heading {
+  border-radius: 0 0 4px 4px;
+  transition: border-radius 0.3s linear 0.2s;
+}
+
+.panel:last-child .panel-heading.active {
+  border-radius: 0;
+  transition: border-radius linear 0s;
+}
+/* #bs-collapse icon scale option */
+
+.panel-heading a:before {
+  content: '\e146';
+  position: absolute;
+  font-family: 'FontAwesome';
+  right: 5px;
+  top: 10px;
+  font-size: 24px;
+  transition: all 0.5s;
+  transform: scale(1);
+}
+
+.panel-heading.active a:before {
+  content: ' ';
+  transition: all 0.5s;
+  transform: scale(0);
+}
+
+/* #accordion rotate icon option */
+
+#accordion .panel-heading a:before {
+  content: '\f107';
+  font-size: 24px;
+  position: absolute;
+  font-family: 'FontAwesome';
+  right: 5px;
+  top: 10px;
+  transform: rotate(0deg);
+  transition: all 0.5s;
+}
+
+#accordion .panel-heading.active a:before {
+  transform: rotate(180deg);
+  transition: all 0.5s;
+}
+
+
+/*------------------------- table --------------------------*/
+
+.compare-content-table .table thead th{
+    white-space: nowrap;
+}
+
+.compare-content-table .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.compare-content-table .table-striped tbody tr:nth-of-type(even) {
+    background-color: rgba(72, 7, 132, 0.25);
+}
+
+.compare-content-table .table-hover tbody tr:hover {
+    background-color: rgba(0,0,0,.075);
+}
+
+.card-all a{
+    overflow: hidden;
+}
+
+.card-all a img{
+    transition: transform .2s;
+}
+
+.card-all a img:hover{
+    transition: transform .2s;
+    transform: scale(1.2);
+}
+.compare-fix-img {
+    overflow: hidden;
+    height: 160px;
+}
+
+/*---------------------- pagination -----------------------*/
+
+.bc-pagination {
+    display: inline-block;
+}
+
+.bc-pagination a {
+    color: #333333;
+    float: left;
+    margin: 0px 10px;
+    font-weight: 300;
+    padding: 8px 5px 0px;
+    text-decoration: none;
+}
+
+.bc-pagination a.active {
+    color: #6922ab;
+    font-weight: 600;
+    border-bottom: 3px solid #6922ab;
+}
+
+.bc-pagination a:hover:not(.active) {
+    color: #6922ab;
+    font-weight: 500;
+    border-bottom: 2px solid #6922ab;
+}
+
+
+
+
+/*--------------------------------------------
+---------------- Responsive ------------------
+----------------------------------------------*/
+
+
+
 @media(max-width: 1366px){
   /*-----------------------
   NAVBAR 1366
@@ -625,6 +1001,12 @@ END BOOKING-HISTORY
       margin-top: -110px;
       border-radius: 0px;
   }
+  .home-porduct-img {
+      position: relative;
+      overflow: hidden;
+      height: 190px;
+      margin-bottom: 10px;
+  }
   /*----------------------
   END HOME 1024
   ------------------------*/
@@ -664,6 +1046,22 @@ END BOOKING-HISTORY
   /*-----------------------
   END FAVIRITES 1024
   ------------------------*/
+
+
+
+/*--------- start button -----------*/
+    .btn-small{
+        min-width: 136px;
+    }
+    .btn-small .hover-bg{
+        width: 100%;
+    }
+    .compare-fix-img {
+      overflow: hidden;
+      height: 130px;
+  }
+/*----------- end button -----------*/   
+
 }
 
 
@@ -719,6 +1117,12 @@ END BOOKING-HISTORY
       margin-top: 30px;
       border-radius: 0px;
   }
+  .home-porduct-img {
+      position: relative;
+      overflow: hidden;
+      height: 210px;
+      margin-bottom: 10px;
+  }
   /*--------------------------
   END HOME 768
   ----------------------------*/
@@ -771,6 +1175,15 @@ END BOOKING-HISTORY
   /*---------------------------
   END BOOKING HISTORRY 768
   -----------------------------*/
+  /*--------- start button -----------*/
+    .btn-small {
+        min-width: 150px;
+    }
+    .compare-fix-img {
+        overflow: hidden;
+        height: 210px;
+    }
+  /*----------- end button -----------*/   
 }
 
 
@@ -844,6 +1257,12 @@ END BOOKING-HISTORY
       overflow: hidden;
       height: 150px;
   }
+  .home-porduct-img {
+      position: relative;
+      overflow: hidden;
+      height: 235px;
+      margin-bottom: 10px;
+  }
   /*-----------------------
   END HOME 414
   -------------------------*/
@@ -902,6 +1321,29 @@ END BOOKING-HISTORY
   /*---------------------------
   END BOOKING HISTORY 414
   -----------------------------*/
+
+/*------------ start tabs -----------*/
+    .sort-product {
+        position: absolute;
+        top: -40px;
+        right: 0;
+        display: flex;
+    }
+/*------------ end tabs -----------*/
+
+/*--------- start button -----------*/
+    .btn-small {
+        min-width: 100%;
+    }
+    .btn-small .hover-bg{
+        width: 90%;
+    }
+    .compare-fix-img {
+        overflow: hidden;
+        height: 235px;
+    }
+/*----------- end button -----------*/  
+
 }
 
 @media(max-width: 375px){
@@ -932,6 +1374,12 @@ END BOOKING-HISTORY
       position: relative;
       overflow: hidden;
       height: 135px;
+  }
+  .home-porduct-img {
+      position: relative;
+      overflow: hidden;
+      height: 210px;
+      margin-bottom: 10px;
   }
   /*-----------------------
   END HOME 375
@@ -975,6 +1423,12 @@ END BOOKING-HISTORY
   /*---------------------------
   END BOOKING HISTORY 375
   -----------------------------*/
+  /*---------- COMPARE 375 --------*/
+  .compare-fix-img {
+      overflow: hidden;
+      height: 210px;
+  }
+  /*------ END COMPARE 375 --------*/
 }
 
 @media(max-width: 320px){
@@ -1021,6 +1475,12 @@ END BOOKING-HISTORY
         padding-left: 83%;
         min-width: 100%;
     }
+    .home-porduct-img {
+      position: relative;
+      overflow: hidden;
+      height: 170px;
+      margin-bottom: 10px;
+  }
   /*-----------------------
   HOME 320
   -------------------------*/
@@ -1076,4 +1536,11 @@ END BOOKING-HISTORY
   /*---------------------------
   END BOOKING HISTORY 320
   -----------------------------*/
+
+  /*---------- COMPARE 320 -----------*/
+  .compare-fix-img {
+      overflow: hidden;
+      height: 160px;
+  }
+  /*------ END COMPARE 320 -----------*/
 }

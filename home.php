@@ -162,7 +162,7 @@
           <div class="card card-all">
             <div class="home-porduct-img">
               <a href="#">
-                <img class="card-img-top border-radius-none home-img-porduct" src="assets/images/car/gallardo-0638.jpg" alt="Card image cap">
+                <img class="card-img-top border-radius-none home-img-porduct" src="assets/images/car/Ford-Edge-Sport-2016.jpg" alt="Card image cap">
               </a>
             </div>
             <div class="card-body px-0 py-0">
@@ -286,7 +286,7 @@
           <div class="card card-all">
             <div class="home-porduct-img">
               <a href="#">
-                  <img class="card-img-top border-radius-none home-img-porduct" src="assets/images/car/gallardo-0638.jpg" alt="Card image cap">
+                  <img class="card-img-top border-radius-none home-img-porduct" src="assets/images/car/Ford-Edge-Sport-2016.jpg" alt="Card image cap">
               </a>
             </div>
             <div class="card-body px-0 py-0">
