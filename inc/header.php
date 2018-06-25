@@ -25,7 +25,7 @@
 
     <link rel="stylesheet" type="text/css" href="assets/font-icon/font/flaticon.css"> 
     <link rel="stylesheet" type="text/css" href="assets/vendor/animate.css-master/animate.css"> 
-    <link rel="stylesheet" type="text/css" href="assets/vendor/Hover/css/hover.css"> 
+    <link rel="stylesheet" type="text/css" href="assets/vendor/animate-hover/css/hover.css"> 
 
 <!-- 
     <link rel="stylesheet" type="text/css" href="assets/css/pond.css">
