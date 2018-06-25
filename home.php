@@ -113,7 +113,7 @@
             </div>
             <div class="row mt-4">
               <div class="col-lg-6 mt-lg-3 mt-3">
-                <a href="#" class="btn-purple skip w-100 home-padding-320">
+                <a href="sale.php" class="btn-purple skip w-100 home-padding-320">
                   <span class="hover-bg reset home-width-responsive">
                     <span class="hover-text reset">
                       <span class="text-btn-purple home-ml--60"><i class="flaticon-percentage font-25"></i> <span>รถราคาพิเศษ</span></span>
@@ -123,7 +123,7 @@
                 </a>
               </div>
               <div class="col-lg-6 mt-lg-3 mt-3">
-                <a href="#" class="btn-yellow skip w-100">
+                <a href="show_product.php" class="btn-yellow skip w-100">
                   <span class="hover-bg reset">
                     <span class="hover-text reset">
                       <span class="text-btn-yellow"><i class="fa fa-search font-25" aria-hidden="true"></i> <span>ยืนยัน</span></span>

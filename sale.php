@@ -32,9 +32,12 @@
               <div class="row mt-4">
                 <!-- vehicle 1 -->
                   <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card card-all mb-2">
+                    <div class="card card-all mb-4 mb-5">
                       <div class="show-product-fix-img">
-                        <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>
+                        <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>\
+                        <div class="time-slae-card">
+                           <div class="time-slae-text">พิเศษ <i class="flaticon-percentage"></i></div>
+                        </div>
                       </div>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -84,7 +87,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="car-details.php" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip"  data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -92,7 +95,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -104,9 +107,12 @@
                   </div>
                 <!-- vehicle 2 -->
                   <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card card-all mb-2">
+                    <div class="card card-all mb-4">
                       <div class="show-product-fix-img">
                         <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>
+                         <div class="time-slae-card">
+                           <div class="time-slae-text">พิเศษ <i class="flaticon-percentage"></i></div>
+                        </div>
                       </div>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -156,7 +162,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip"  data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -164,7 +170,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -176,9 +182,12 @@
                   </div>
                 <!-- vehicle 3 -->
                   <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card card-all mb-2">
+                    <div class="card card-all mb-4">
                       <div class="show-product-fix-img">
                         <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>
+                        <div class="time-slae-card">
+                         <div class="time-slae-text">พิเศษ <i class="flaticon-percentage"></i></div>
+                        </div>
                       </div>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -228,7 +237,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip"  data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -236,7 +245,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -248,9 +257,12 @@
                   </div>
                 <!-- vehicle 4 -->
                   <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card card-all mb-2">
+                    <div class="card card-all mb-4">
                       <div class="show-product-fix-img">
                         <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>
+                        <div class="time-slae-card">
+                         <div class="time-slae-text">พิเศษ <i class="flaticon-percentage"></i></div>
+                        </div>
                       </div>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -300,7 +312,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip"  data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -308,7 +320,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -320,9 +332,12 @@
                   </div>
                 <!-- vehicle 5 -->
                   <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card card-all mb-2">
+                    <div class="card card-all mb-4">
                       <div class="show-product-fix-img">
                         <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>
+                        <div class="time-slae-card">
+                         <div class="time-slae-text">พิเศษ <i class="flaticon-percentage"></i></div>
+                        </div>
                       </div>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -372,7 +387,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip"  data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -380,7 +395,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -392,9 +407,12 @@
                   </div>
                 <!-- vehicle 6 -->
                   <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card card-all mb-2">
+                    <div class="card card-all mb-4">
                       <div class="show-product-fix-img">
                         <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>
+                        <div class="time-slae-card">
+                         <div class="time-slae-text">พิเศษ <i class="flaticon-percentage"></i></div>
+                        </div>
                       </div>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -444,7 +462,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip"  data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -452,7 +470,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -464,9 +482,12 @@
                   </div>
                 <!-- vehicle 7 -->
                   <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card card-all mb-2">
+                    <div class="card card-all mb-4">
                       <div class="show-product-fix-img">
                         <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>
+                        <div class="time-slae-card">
+                         <div class="time-slae-text">พิเศษ <i class="flaticon-percentage"></i></div>
+                        </div>
                       </div>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -516,7 +537,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip"  data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -524,7 +545,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -536,9 +557,12 @@
                   </div>
                 <!-- vehicle 8 -->
                   <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card card-all mb-2">
+                    <div class="card card-all mb-4">
                       <div class="show-product-fix-img">
                         <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>
+                        <div class="time-slae-card">
+                         <div class="time-slae-text">พิเศษ <i class="flaticon-percentage"></i></div>
+                        </div>
                       </div>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -588,7 +612,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip"  data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -596,7 +620,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -608,9 +632,12 @@
                   </div>
                 <!-- vehicle 9 -->
                   <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card card-all mb-2">
+                    <div class="card card-all mb-4">
                       <div class="show-product-fix-img">
                         <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>
+                        <div class="time-slae-card">
+                         <div class="time-slae-text">พิเศษ <i class="flaticon-percentage"></i></div>
+                        </div>
                       </div>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -660,7 +687,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip"  data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -668,7 +695,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -702,7 +729,7 @@
               <div class="row mt-4">
                 <!-- vehicle 1 -->
                   <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card card-all mb-2">
+                    <div class="card card-all mb-4">
                       <a href="#"><img class="card-img-top border-radius-none" src="https://www.piriyaphoto.com/wp-content/uploads/2016/10/PW9_4417-copy-3.jpg" alt="Card image cap"></a>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -752,7 +779,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip"  data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -760,7 +787,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -772,7 +799,7 @@
                   </div>
                 <!-- vehicle 2 -->
                   <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card card-all mb-2">
+                    <div class="card card-all mb-4">
                       <a href="#"><img class="card-img-top border-radius-none" src="https://www.banidea.com/wp-content/uploads/2013/05/Van-House-Travel-1.jpg" alt="Card image cap"></a>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -822,7 +849,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip"  data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -830,7 +857,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -862,7 +889,7 @@
               <div class="row mt-4">
                 <!-- vehicle 1 -->
                   <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card card-all mb-2">
+                    <div class="card card-all mb-4">
                       <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/gallardo-0638.jpg" alt="Card image cap"></a>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -912,7 +939,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip"  data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -920,7 +947,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -932,7 +959,7 @@
                   </div>
                 <!-- vehicle 2 -->
                   <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card card-all mb-2">
+                    <div class="card card-all mb-4">
                       <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/gallardo-0638.jpg" alt="Card image cap"></a>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -982,7 +1009,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip"  data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -990,7 +1017,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -1002,7 +1029,7 @@
                   </div>
                 <!-- vehicle 3 -->
                   <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card card-all mb-2">
+                    <div class="card card-all mb-4">
                       <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/gallardo-0638.jpg" alt="Card image cap"></a>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -1052,7 +1079,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip"  data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -1060,7 +1087,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -1072,7 +1099,7 @@
                   </div>
                 <!-- vehicle 4 -->
                   <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="card card-all mb-2">
+                    <div class="card card-all mb-4">
                       <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/gallardo-0638.jpg" alt="Card image cap"></a>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -1122,7 +1149,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip"  data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -1130,7 +1157,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -1179,6 +1206,51 @@
       <!-- END INPUT BOTTOM BORDER -->
       
     </div>
+
+
+
+
+       <!-- Modal  Contact-->
+        <div class="modal fade" id="contactDealer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content modal-contact">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">ติดต่อผู้ขาย</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <h5 class="text-purple"> USEDCARJINGJAI</h5>
+                  <ul class="show-list-contact">
+                    <li class="list-item">
+                      <i class="fa fa-phone mr-2" aria-hidden="true"></i>
+                      <label class="text-contact">089-123-4567</label>
+                    </li>
+                    <li class="list-item">
+                      <i class="fa fa-phone mr-2" aria-hidden="true"></i>
+                      <label class="text-contact">089-123-4567</label>
+                    </li>
+                    <li class="list-item">
+                      <i class="flaticon-line-logo" aria-hidden="true" style="color: green; font-weight: 100;"></i>
+                      <label class="text-contact">089-123-4567</label>
+                    </li>
+                  </ul>
+              </div>
+              <div class="modal-footer">
+                <a href="#" class="btn-yellow skip w-100">
+                  <span class="hover-bg reset">
+                    <span class="hover-text reset"><b class="text-btn-yellow">เริ่มต้นแชท</b></span>
+                  </span>
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
 
     <!-- START FOOTER -->
     <?php include_once('inc/footer.php'); ?>

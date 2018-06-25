@@ -578,7 +578,7 @@
 
               <div class="row px-0 mb-3">
                 <div class="col-lg-12 col-md-6 col-12 px-lg-0 px-md-2 px-0">
-                  <a href="#" class="btn-yellow skip w-100">
+                  <a href="payment.php" class="btn-yellow skip w-100">
                     <span class="hover-bg reset">
                       <span class="hover-text reset"><b class="text-btn-yellow">จอง</b></span>
                     </span>
@@ -586,7 +586,7 @@
                   </a>
                 </div>
                 <div class="col-lg-12 col-md-6 col-12 px-lg-0 px-md-2 px-0">
-                  <a href="#" class="btn-purple skip w-100">
+                  <a href="#" class="btn-purple skip w-100"  data-toggle="modal" data-target="#contactDealer">
                     <span class="hover-bg reset">
                       <span class="hover-text reset booking-details"><b class="text-btn-purple"><i class="flaticon-phone-receiver"></i> ติดต่อผู้ขาย</b></span>
                     </span>
@@ -765,6 +765,48 @@
           </div>
 
       </div>
+
+
+
+       <!-- Modal  Contact-->
+        <div class="modal fade" id="contactDealer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content modal-contact">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">ติดต่อผู้ขาย</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <h5 class="text-purple"> USEDCARJINGJAI</h5>
+                  <ul class="show-list-contact">
+                    <li class="list-item">
+                      <i class="fa fa-phone mr-2" aria-hidden="true"></i>
+                      <label class="text-contact">089-123-4567</label>
+                    </li>
+                    <li class="list-item">
+                      <i class="fa fa-phone mr-2" aria-hidden="true"></i>
+                      <label class="text-contact">089-123-4567</label>
+                    </li>
+                    <li class="list-item">
+                      <i class="flaticon-line-logo" aria-hidden="true" style="color: green; font-weight: 100;"></i>
+                      <label class="text-contact">089-123-4567</label>
+                    </li>
+                  </ul>
+              </div>
+              <div class="modal-footer">
+                <a href="#" class="btn-yellow skip w-100">
+                  <span class="hover-bg reset">
+                    <span class="hover-text reset"><b class="text-btn-yellow">เริ่มต้นแชท</b></span>
+                  </span>
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
     <?php include_once('inc/chat-box.php'); ?>   
     </div>

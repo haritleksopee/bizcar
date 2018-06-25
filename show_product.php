@@ -248,7 +248,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="car-details.php" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip" data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -256,7 +256,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -320,7 +320,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#"  class="btn-purple btn-small skip" data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -328,7 +328,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -392,7 +392,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip" data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -400,7 +400,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -464,7 +464,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip" data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -472,7 +472,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -536,7 +536,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip" data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -544,7 +544,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -608,7 +608,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip" data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -616,7 +616,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -680,7 +680,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip" data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -688,7 +688,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -752,7 +752,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip" data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -760,7 +760,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -824,7 +824,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip" data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -832,7 +832,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -916,7 +916,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip" data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -924,7 +924,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -986,7 +986,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip" data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -994,7 +994,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -1076,7 +1076,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip" data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -1084,7 +1084,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -1146,7 +1146,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip" data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -1154,7 +1154,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -1216,7 +1216,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip" data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -1224,7 +1224,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -1286,7 +1286,7 @@
                       </div>
                       <div class="card-footer bg-white px-0 d-md-flex flex-md-row">
                         <div>
-                           <a href="#" class="btn-purple btn-small skip">
+                           <a href="#" class="btn-purple btn-small skip" data-toggle="modal" data-target="#contactDealer">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-purple text-medium"><i class="fa fa-phone mr-1" aria-hidden="true"></i>ติดต่อผู้ขาย</label></span>
                             </span>
@@ -1294,7 +1294,7 @@
                           </a>
                         </div>
                         <div class="ml-auto">
-                          <a href="#" class="btn-yellow btn-small skip">
+                          <a href="payment.php" class="btn-yellow btn-small skip">
                             <span class="hover-bg reset">
                               <span class="hover-text reset"><label class="text-btn-yellow text-medium">จอง</label></span>
                             </span>
@@ -1331,12 +1331,54 @@
 
         </div>
         <!-- End Show Product -->
-
           <div class="col-12 col-sm-6 col-lg-4 mb-5 mx-auto">
             <form action="compare_car.php" method="get" id="form1">
                 <button type="submit" form="form1" class="btn bnt-dark-purple" data-toggle="modal" data-target="#contactDealer">เปรียบเทียบราคา</button>
             </form>
           </div>
+
+
+
+
+       <!-- Modal  Contact-->
+        <div class="modal fade" id="contactDealer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content modal-contact">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">ติดต่อผู้ขาย</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <h5 class="text-purple"> USEDCARJINGJAI</h5>
+                  <ul class="show-list-contact">
+                    <li class="list-item">
+                      <i class="fa fa-phone mr-2" aria-hidden="true"></i>
+                      <label class="text-contact">089-123-4567</label>
+                    </li>
+                    <li class="list-item">
+                      <i class="fa fa-phone mr-2" aria-hidden="true"></i>
+                      <label class="text-contact">089-123-4567</label>
+                    </li>
+                    <li class="list-item">
+                      <i class="flaticon-line-logo" aria-hidden="true" style="color: green; font-weight: 100;"></i>
+                      <label class="text-contact">089-123-4567</label>
+                    </li>
+                  </ul>
+              </div>
+              <div class="modal-footer">
+                <a href="#" class="btn-yellow skip w-100">
+                  <span class="hover-bg reset">
+                    <span class="hover-text reset"><b class="text-btn-yellow">เริ่มต้นแชท</b></span>
+                  </span>
+                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
       <?php include_once('inc/chat-box.php'); ?>   
 
