@@ -34,7 +34,7 @@
                   <div class="col-12 col-sm-6 col-lg-4">
                     <div class="card card-all mb-2">
                       <div class="show-product-fix-img">
-                        <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/c23afbda3cb7df88c914574fe68ce1d2.jpg" alt="Card image cap"></a>
+                        <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>
                       </div>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -106,7 +106,7 @@
                   <div class="col-12 col-sm-6 col-lg-4">
                     <div class="card card-all mb-2">
                       <div class="show-product-fix-img">
-                        <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/c23afbda3cb7df88c914574fe68ce1d2.jpg" alt="Card image cap"></a>
+                        <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>
                       </div>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -178,7 +178,7 @@
                   <div class="col-12 col-sm-6 col-lg-4">
                     <div class="card card-all mb-2">
                       <div class="show-product-fix-img">
-                        <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/c23afbda3cb7df88c914574fe68ce1d2.jpg" alt="Card image cap"></a>
+                        <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>
                       </div>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -250,7 +250,7 @@
                   <div class="col-12 col-sm-6 col-lg-4">
                     <div class="card card-all mb-2">
                       <div class="show-product-fix-img">
-                        <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/c23afbda3cb7df88c914574fe68ce1d2.jpg" alt="Card image cap"></a>
+                        <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>
                       </div>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -322,7 +322,7 @@
                   <div class="col-12 col-sm-6 col-lg-4">
                     <div class="card card-all mb-2">
                       <div class="show-product-fix-img">
-                        <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/c23afbda3cb7df88c914574fe68ce1d2.jpg" alt="Card image cap"></a>
+                        <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>
                       </div>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -394,7 +394,7 @@
                   <div class="col-12 col-sm-6 col-lg-4">
                     <div class="card card-all mb-2">
                       <div class="show-product-fix-img">
-                        <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/c23afbda3cb7df88c914574fe68ce1d2.jpg" alt="Card image cap"></a>
+                        <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>
                       </div>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -466,7 +466,7 @@
                   <div class="col-12 col-sm-6 col-lg-4">
                     <div class="card card-all mb-2">
                       <div class="show-product-fix-img">
-                        <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/c23afbda3cb7df88c914574fe68ce1d2.jpg" alt="Card image cap"></a>
+                        <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>
                       </div>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -538,7 +538,7 @@
                   <div class="col-12 col-sm-6 col-lg-4">
                     <div class="card card-all mb-2">
                       <div class="show-product-fix-img">
-                        <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/c23afbda3cb7df88c914574fe68ce1d2.jpg" alt="Card image cap"></a>
+                        <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>
                       </div>
                       <div class="card-body px-0">
                         <div class="card-head-content">
@@ -610,7 +610,7 @@
                   <div class="col-12 col-sm-6 col-lg-4">
                     <div class="card card-all mb-2">
                       <div class="show-product-fix-img">
-                        <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/c23afbda3cb7df88c914574fe68ce1d2.jpg" alt="Card image cap"></a>
+                        <a href="car-details.php"><img class="card-img-top border-radius-none" src="assets/images/car/MG3-1029-Large-1024x683.jpg" alt="Card image cap"></a>
                       </div>
                       <div class="card-body px-0">
                         <div class="card-head-content">
