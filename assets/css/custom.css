@@ -2044,7 +2044,7 @@ $Car Details
 }
 
 .message-from-seller:last-child{
-  font-size: 15px;
+  font-size: 16px;
   color:grey;
 }
 
@@ -2122,7 +2122,11 @@ $Car Details
 .related-product-text-price{
   height:25px;
 }
-
+.car-details-fix-img {
+    position: relative;
+    overflow: hidden;
+    height: 105px;
+}
 /*------------------------------------*
 $END Car Details
 *------------------------------------*/
@@ -2668,7 +2672,11 @@ END POND 1024
   .btn-small {
       min-width: 136px;
   }
-
+    .car-details-fix-img {
+        position: relative;
+        overflow: hidden;
+        height: 90px;
+    }
 /*-----------------------------
 ------show product 1024---------
   ------------------------------*/
@@ -2900,7 +2908,11 @@ END POND 1024
       margin-right: auto;
       height:90vh;
     }
-
+    .car-details-fix-img {
+        position: relative;
+        overflow: hidden;
+        height: 85px;
+    }
 }
 
 
@@ -3513,7 +3525,11 @@ END POND 1024
     .modal-dialog {
         margin: 5rem auto;
     }
-
+    .car-details-fix-img {
+        position: relative;
+        overflow: hidden;
+        height: 190px;
+    }
 }
 
 @media(max-width: 375px){
@@ -3701,7 +3717,11 @@ END POND 1024
 /*----------------------------------
 ---------- END ADDCAR 375 ----------
 ------------------------------------*/
-
+    .car-details-fix-img {
+        position: relative;
+        overflow: hidden;
+        height: 170px;
+    }
 }
 
 @media(max-width: 320px){
@@ -4022,6 +4042,11 @@ END POND 1024
         background: #BDC3C7;
         border:1px solid #A6ACAF;
         font-size: 16px;
+    }
+    .car-details-fix-img {
+        position: relative;
+        overflow: hidden;
+        height: 140px;
     }
     /*----------------------------------
     ---------- END PAYMENT 320 ------------

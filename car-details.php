@@ -35,7 +35,7 @@
                     </div>
                     <div class="col-6 col-md-5">
                       <label class="star-wish mt-2 pt-1">
-                        <i  onclick="myFunction(this)" class="fa fa-star-o" aria-hidden="true"></i>
+                        <i  onclick="myFunction(this)" class="fa fa-star-o font-20" aria-hidden="true"></i>
                         <span>บันทึก</span>
                       </label>    
                     </div>
@@ -366,7 +366,9 @@
                         </div>
                         <div class="col-3 px-1">
                           <div class="card card-all">
-                            <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/Ford-Edge-Sport-2016.jpg" alt="Card image cap"></a>
+                            <div class="car-details-fix-img">
+                              <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/Ford-Edge-Sport-2016.jpg" alt="Card image cap"></a>
+                            </div>
                             <div class="card-body p-0">
                               <div class="card-content related-product-text-box">
                                 <p class="card-text">2009 AUDI Q5 2.0 Tfsi Wagon</p>
@@ -375,7 +377,7 @@
                                 <p class="card-text">140,000 km</p>
                               </div>
                             </div>
-                            <div class="card-footer card-footer-all p-0 text-purple related-product-text-price">
+                            <div class="card-footer card-footer-all p-0 text-purple related-product-text-price font-weight-500">
                               279,000 บาท
                             </div>
                           </div>
@@ -384,7 +386,9 @@
 
                         <div class="col-3 px-1">
                           <div class="card card-all">
-                            <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/gallardo-0638.jpg" alt="Card image cap"></a>
+                            <div class="car-details-fix-img">
+                              <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/gallardo-0638.jpg" alt="Card image cap"></a>
+                            </div>
                             <div class="card-body p-0">
                               <div class="card-content related-product-text-box">
                                 <p class="card-text">2009 AUDI Q5 2.0 Tfsi Wagon</p>
@@ -393,7 +397,7 @@
                                 <p class="card-text">140,000 km</p>
                               </div>
                             </div>
-                            <div class="card-footer card-footer-all p-0 text-purple related-product-text-price">
+                            <div class="card-footer card-footer-all p-0 text-purple related-product-text-price font-weight-500">
                               279,000 บาท
                             </div>
                           </div>
@@ -401,7 +405,9 @@
 
                         <div class="col-3 px-1">
                           <div class="card card-all">
-                            <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/gallardo-0638.jpg" alt="Card image cap"></a>
+                            <div class="car-details-fix-img">
+                              <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/gallardo-0638.jpg" alt="Card image cap"></a>
+                            </div>
                             <div class="card-body p-0">
                               <div class="card-content related-product-text-box">
                                 <p class="card-text">2009 AUDI Q5 2.0 Tfsi Wagon</p>
@@ -410,7 +416,7 @@
                                 <p class="card-text">140,000 km</p>
                               </div>
                             </div>
-                            <div class="card-footer card-footer-all p-0 text-purple related-product-text-price">
+                            <div class="card-footer card-footer-all p-0 text-purple related-product-text-price font-weight-500">
                               279,000 บาท
                             </div>
                           </div>
@@ -418,7 +424,9 @@
 
                         <div class="col-3 px-1">
                           <div class="card card-all">
-                            <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/gallardo-0638.jpg" alt="Card image cap"></a>
+                            <div class="car-details-fix-img">
+                              <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/gallardo-0638.jpg" alt="Card image cap"></a>
+                            </div>
                             <div class="card-body p-0">
                               <div class="card-content related-product-text-box">
                                 <p class="card-text">2009 AUDI Q5 2.0 Tfsi Wagon</p>
@@ -427,7 +435,7 @@
                                 <p class="card-text">140,000 km</p>
                               </div>
                             </div>
-                            <div class="card-footer card-footer-all p-0 text-purple related-product-text-price">
+                            <div class="card-footer card-footer-all p-0 text-purple related-product-text-price font-weight-500">
                               279,000 บาท
                             </div>
                           </div>
@@ -685,7 +693,9 @@
                   </div>
                   <div class="col-md-3 col-12 px-1 mb-md-0 mb-3">
                     <div class="card card-all">
-                      <a href="#"><img class="card-img-top border-radius-none" src=assets/images/car/post6244.jpg" alt="Card image cap"></a>
+                      <div class="car-details-fix-img">
+                        <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/Ford-Edge-Sport-2016.jpg" alt="Card image cap"></a>
+                      </div>
                       <div class="card-body p-0">
                         <div class="card-content related-product-text-box">
                           <p class="card-text">2009 AUDI Q5 2.0 Tfsi Wagon</p>
@@ -694,7 +704,7 @@
                           <p class="card-text">140,000 km</p>
                         </div>
                       </div>
-                      <div class="card-footer card-footer-all p-0 text-purple related-product-text-price">
+                      <div class="card-footer card-footer-all p-0 text-purple related-product-text-price font-weight-500">
                         279,000 บาท
                       </div>
                     </div>
@@ -703,7 +713,9 @@
 
                   <div class="col-md-3 col-12 px-1 mb-md-0 mb-3">
                     <div class="card card-all">
+                      <div class="car-details-fix-img">
                       <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/post6244.jpg" alt="Card image cap"></a>
+                      </div>
                       <div class="card-body p-0">
                         <div class="card-content related-product-text-box">
                           <p class="card-text">2009 AUDI Q5 2.0 Tfsi Wagon</p>
@@ -712,7 +724,7 @@
                           <p class="card-text">140,000 km</p>
                         </div>
                       </div>
-                      <div class="card-footer card-footer-all p-0 text-purple related-product-text-price">
+                      <div class="card-footer card-footer-all p-0 text-purple related-product-text-price font-weight-500">
                         279,000 บาท
                       </div>
                     </div>
@@ -720,7 +732,9 @@
 
                   <div class="col-md-3 col-12 px-1 mb-md-0 mb-3">
                     <div class="card card-all">
-                      <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/post6244.jpg" alt="Card image cap"></a>
+                      <div  class="car-details-fix-img">
+                        <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/post6244.jpg" alt="Card image cap"></a>
+                      </div>
                       <div class="card-body p-0">
                         <div class="card-content related-product-text-box">
                           <p class="card-text">2009 AUDI Q5 2.0 Tfsi Wagon</p>
@@ -729,7 +743,7 @@
                           <p class="card-text">140,000 km</p>
                         </div>
                       </div>
-                      <div class="card-footer card-footer-all p-0 text-purple related-product-text-price">
+                      <div class="card-footer card-footer-all p-0 text-purple related-product-text-price font-weight-500">
                         279,000 บาท
                       </div>
                     </div>
@@ -737,7 +751,9 @@
 
                   <div class="col-md-3 col-12 px-1 mb-md-0 mb-3">
                     <div class="card card-all">
-                      <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/post6244.jpg" alt="Card image cap"></a>
+                      <div  class="car-details-fix-img">
+                        <a href="#"><img class="card-img-top border-radius-none" src="assets/images/car/post6244.jpg" alt="Card image cap"></a>
+                      </div>
                       <div class="card-body p-0">
                         <div class="card-content related-product-text-box">
                           <p class="card-text">2009 AUDI Q5 2.0 Tfsi Wagon</p>
@@ -746,7 +762,7 @@
                           <p class="card-text">140,000 km</p>
                         </div>
                       </div>
-                      <div class="card-footer card-footer-all p-0 text-purple related-product-text-price">
+                      <div class="card-footer card-footer-all p-0 text-purple related-product-text-price font-weight-500">
                         279,000 บาท
                       </div>
                     </div>
