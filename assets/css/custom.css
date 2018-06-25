@@ -1044,7 +1044,7 @@ a:active {
     box-shadow: 0 0 0 0.2rem rgb(0, 0, 0);
 }
 .dropdown-menu-navbar2 {
-    position: absolute;
+    position: absolute!important;
     margin: 0px 0px 0px -65px;
 }
 
