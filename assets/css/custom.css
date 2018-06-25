@@ -71,7 +71,7 @@ body {
 }
 a:hover {
     color: none;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .row {
   margin-left: 0px;
@@ -125,7 +125,12 @@ a:hover {
     color: #fff;
 }
 
-
+.font-weight-500 {
+    font-weight: 500;
+}
+.font-weight-400 {
+    font-weight: 400;
+}
 .cursor-pointer {
   cursor: pointer!important;
 }
@@ -137,6 +142,9 @@ a:hover {
 }
 .font-25 {
   font-size: 25px;
+}
+.font-20 {
+  font-size: 20px;
 }
 .input-from-bottom {
   width: 100%;
@@ -374,7 +382,17 @@ NAVBAR
 .navbar-text-link:hover {
     color: #d0a50a!important;
     transition: all 0.3s;
+    background: none;
 }
+.navbar-link-active {
+    color: #d0a50a!important;
+    transition: all 0.3s;
+    background: none;
+}
+.navbar-dropdown-position {
+      padding: 1px 5px;
+}
+
 .navbar-language {
     width: 33px;
     margin: 0px 5px;
@@ -386,6 +404,31 @@ NAVBAR
 .navbar-language-active {
     opacity: 0.5;
 } 
+
+.navbarmenu-dropdown {
+    background: none;
+    top: 50px;
+    border: none;
+    border: none;
+    padding: 10px 45px;
+    margin: 1px -55px;
+    left: unset;
+}
+.dropdown2sdf {
+    margin: 1px -66px!important;
+}
+.navbarmenu-dropdown.show {
+    display: flex!important;
+}
+.navbarmenu-dropdown2.show {
+    display: flex!important;
+}
+.navbar-profile-collor {
+    color: #330063!important;
+}
+.navbar-profile-collor:hover {
+    color: #d0a50a!important;
+}
 /*------------------------------------
 END NAVBAR
 --------------------------------------*/
@@ -474,7 +517,7 @@ HOME
 .home-porduct-img {
     position: relative;
     overflow: hidden;
-    height: 230px;
+    height: 200px;
     margin-bottom: 10px;
 }
 .home-img-porduct {
@@ -563,8 +606,7 @@ BOOKING-HISTORY
 ---------------------------------------*/
 .booking-20 {
     font-size: 20px;
-    overflow: hidden;
-    height: 35px;
+    font-weight: 500;
 }
 .booking-card {
     border: none;
@@ -663,7 +705,7 @@ END BOOKING-HISTORY
 }
 
 /* Create a custom checkbox */
-.checkmark {
+.checkmark-show-product {
     position: absolute;
     top: 0;
     left: 0;
@@ -674,29 +716,29 @@ END BOOKING-HISTORY
 }
 
 /* On mouse-over, add a grey background color */
-.check-compare:hover input ~ .checkmark {
+.check-compare:hover input ~ .checkmark-show-product {
     background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
-.check-compare input:checked ~ .checkmark {
+.check-compare input:checked ~ .checkmark-show-product {
     background-color: #28a745;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
+.checkmark-show-product:after {
     content: "";
     position: absolute;
     display: none;
 }
 
 /* Show the checkmark when checked */
-.check-compare input:checked ~ .checkmark:after {
+.check-compare input:checked ~ .checkmark-show-product:after {
     display: block;
 }
 
 /* Style the checkmark/indicator */
-.check-compare .checkmark:after {
+.check-compare .checkmark-show-product:after {
     left: 6px;
     top: 1px;
     width: 8px;
@@ -759,6 +801,12 @@ END BOOKING-HISTORY
     border-radius: 15px;
     cursor: pointer;
     z-index: 5;
+}
+
+.btn-close span{
+  position: absolute;
+  top: -1px;
+  left: 8px;
 }
 /*------------------------- accordian --------------------------*/
 
@@ -854,12 +902,13 @@ a:active {
   font-family: 'FontAwesome';
   right: 5px;
   top: 10px;
-  transform: rotate(0deg);
+  transform: rotate(180deg);
   transition: all 0.5s;
 }
 
-#accordion .panel-heading.active a:before {
-  transform: rotate(180deg);
+#accordion .panel-heading a.collapsed:before {
+
+  transform: rotate(0deg);
   transition: all 0.5s;
 }
 
@@ -926,8 +975,1156 @@ a:active {
     border-bottom: 2px solid #6922ab;
 }
 
+/*--------------------------- Modal -----------------------------*/
+.modal-header{
+    border-bottom: none;
+    background-color: #480784;
+    color: #ffffff;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.modal-dialog {
+    margin: 12.75rem auto;
+    padding: 0px 15px;
+}
+
+.modal-content{
+    border-radius: 0rem;
+}
+
+.modal-contact .modal-body ul li i{
+    color: #480784;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.modal-contact .show-list-contact{
+    list-style: none;
+    -webkit-padding-start: 0px;
+    margin-bottom: 0px;
+}
+
+.modal-content .close {
+    color: #fff;
+    text-shadow: 0 1px 0 #fff;
+    opacity: unset;
+
+}
+
+.modal-footer{
+    border-top: none;
+}
 
 
+/*---------------nav-------------*/
+.btn-secondary {
+    color: #fff;
+    background-color: #000000;
+    /* border-color: #6c757d; */
+    border: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+.btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgb(0, 0, 0);
+}
+.btn-secondary.focus, .btn-secondary:focus {
+    box-shadow: 0 0 0 0.2rem rgb(0, 0, 0);
+}
+.dropdown-menu-navbar2 {
+    position: absolute;
+    margin: 0px 0px 0px -65px;
+}
+
+/*---------------nav end ----------*/
+
+
+/*--------------------------------
+---------------index--------------
+----------------------------------*/
+.bg_purple{
+  background-color: #480784;
+  height: 100vh;
+}
+.index_pad{
+  padding: 270px 0px 0px 0px;
+}
+.index_text_yellow{
+  color: #d0a50a;
+}
+.index_icon-thai-eng{
+  display: flex;
+  padding: 15px 450px;
+}
+.index_fix_frame {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    padding: 0px 200px 0px 200px;
+}
+/*--------------------------------
+---------------index--------------
+----------------------------------*/
+
+
+
+/*----------------------------------
+----------------about_us------------
+-----------------------------------*/
+.about_us_fix_frame{
+     position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+/*----------------------------------
+----------------about_us end--------
+-----------------------------------*/
+
+
+
+
+
+
+/*----------------------------------
+-------------- ADDCAR ---------------
+-------------------------------------*/
+.addcar-font{
+    font-size: 15px;
+    font-family: 'kanitlight';
+}
+
+.addcar-padding{
+    padding: 20px;
+}
+
+.addcar-padding-top{
+    padding-top: 20px;
+}
+
+.addcar-padding-top2{
+    padding-top: 30px;
+}
+
+.addcar-form{
+  width: 100%;
+  height: 50px;
+  color: #4d4d4d;
+  padding: 10px;
+  border: 1px solid #4d4d4d;
+  font-size: 15px;
+  background: url(../../assets/images/pencil.png) no-repeat right 15px center;
+  background-size: 25px;
+}
+
+.addcar-comment{
+  width: 100%;
+  height:200px;
+  padding: 10px;
+  border: 1px solid #4d4d4d;
+  font-size: 15px;
+  background: url(../../assets/images/pencil.png) no-repeat right 13px top 13px ;
+  background-size: 25px;
+}
+
+.addcar-select{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.addcar-select input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    border:1px solid #cecfcf;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.checkmark2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    background: linear-gradient(to top, #dbbb8a, #f4e9bb);
+    border-radius: 50%;
+    border:none;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.checkmark3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    background: linear-gradient(to top, #9a999c, #e2e4e4);
+    border-radius: 50%;
+    border:none;
+    margin-left: 4px;
+    margin-top: 10px;
+}
+
+.checkmark4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    background: linear-gradient(to top, #808080, #a9abae);
+    border-radius: 50%;
+    border:none;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.checkmark5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    background: linear-gradient(to top, #0a7cc0, #64cfe1);
+    border-radius: 50%;
+    border:none;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+.checkmark6{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    background: linear-gradient(to top, #405eae, #489bd4);
+    border-radius: 50%;
+    border:none;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+
+.checkmark7{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    background: linear-gradient(to top, #0c7f45, #88c54a);
+    border-radius: 50%;
+    border:none;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.checkmark8{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    background: linear-gradient(to top, #CD853F, #DAA520);
+    border-radius: 50%;
+    border:none;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+
+.checkmark9{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    background: linear-gradient(to top, #cec333, #f5ed0e);
+    border-radius: 50%;
+    border:none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.checkmark10{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    background: linear-gradient(to top, #f26d2d, #f8b042);
+    border-radius: 50%;
+    border:none;
+    margin-left: 11px;
+    margin-top: 10px;
+}
+
+.checkmark11{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    background: linear-gradient(to top, #e5262f, #f2755c);
+    border-radius: 50%;
+    border:none;
+    margin-left:12px;
+    margin-top: 10px;
+}
+
+.checkmark12{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    background: linear-gradient(to top, #e20796, #ee6bac);
+    border-radius: 50%;
+    border:none;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+.checkmark13{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    background: linear-gradient(to top, #87389b, #af78b4);
+    border-radius: 50%;
+    border:none;
+    margin-left: 14px;
+    margin-top: 10px;
+}
+
+.checkmark14{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 25px;
+    background: linear-gradient(to top, #6c2516, #915227);
+    border-radius: 50%;
+    border:none;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.checkmark15{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 51px;
+    height: 51px;
+    background: url(../../assets/images/dot.jpg);
+    background-size:cover;
+    border-radius: 50%;
+    border: 1px solid #cecfcf;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.addcar-select input:checked ~ .checkmark .checkmark2 .checkmark3 .checkmark4 
+.checkmark5 .checkmark6 .checkmark7 .checkmark8 .checkmark9 .checkmark10 .checkmark11 
+.checkmark12 .checkmark13 .checkmark14 .checkmark15{
+    background-color: #fff;
+    border :1px solid #b308ea;
+}
+
+.addcar-w-h{
+   width: 72px;
+   height: 70px;
+}
+
+.addcar-select span:after {
+    content: "";
+    position: absolute;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.addcar-select input:checked ~ span:after {
+    opacity:0.5;
+}
+
+.addcar-select span:after {
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    background: url(../../assets/images/check2.png);
+    background-size:cover; 
+    background-color: black;
+    opacity:0;
+}
+
+.addcar-p-b{
+    padding-bottom: 100px;
+}
+
+.addcar-p-t{
+    padding-top: 90px;
+}
+
+.addcar-m-l{
+  margin-left: 74px;
+}
+
+.addcar-p-1{
+    padding-left: 12px;
+    padding-top: 40px;
+}
+
+.addcar-p-2{
+    padding-left: 12px;
+    padding-top: 40px;
+}
+
+.addcar-p-3{
+    padding-left: 14px;
+    padding-top: 40px;
+}
+
+.addcar-p-4{
+    padding-left: 17px;
+    padding-top: 40px;
+}
+
+.addcar-p-5{
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.addcar-p-6{
+    padding-left: 12px;
+    padding-top: 40px;
+}
+
+.addcar-p-7{
+    padding-left: 17px;
+    padding-top: 40px;
+}
+
+.addcar-p-8{
+    padding-left: 19px;
+    padding-top: 40px;
+}
+
+.addcar-p-9{
+    padding-left: 15px;
+    padding-top: 40px;
+}
+
+.addcar-p-10{
+    padding-left: 25px;
+    padding-top: 40px;
+}
+
+.addcar-p-11{
+    padding-left: 21px;
+    padding-top: 40px;
+}
+
+.addcar-p-12{
+    padding-left: 22px;
+    padding-top: 40px;
+}
+
+.addcar-p-13{
+    padding-left: 24px;
+    padding-top: 40px;
+}
+
+.addcar-p-14{
+    padding-left: 17px;
+    padding-top: 40px;
+}
+
+.addcar-p-15{
+    padding-left: 25px;
+    padding-top: 40px;
+}
+
+.addcar-upload{
+    width: 100%;
+    height: 300px;
+    background-image: url(../../assets/images/upload.png);
+    background-size: cover;
+}
+
+.upload-file {
+  position: relative;
+  overflow: hidden;
+}
+
+.upload-file input[type=file] {
+  font-size: 200px;
+  opacity: 0;
+  outline: none;
+  background-image: url(../../assets/images/upload.png);;
+  cursor: inherit;
+  display: block;
+}
+
+.btn-facebook-addcar{
+    border-radius: 0px;
+    background-color: #4267b2;
+    color: #fff;
+    font-size: 20px;
+    height: 55px;
+
+}
+.btn-gmail-addcar {
+    border-radius: 0px;
+    background-color: #db4437;
+    color: #fff;
+    font-size: 20px;
+    height: 55px;
+}
+
+.btn-yellow-addcar {
+    height: 51px;
+    min-width: 100%;
+    color: #eab40f;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 51px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 3px solid #bb8e03;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    background-color: #000;
+    padding-left: 75%;
+}
+.btn-yellow-addcar:hover {
+    color: #eab40f;
+    opacity: 0.8;
+}
+
+.btn-yellow-addcar .hover-bg {
+    color: #000;
+    display: block;
+    background-color: #eab40f;
+    width: 90%;
+    height: 102%;
+     position: absolute; 
+    -webkit-transform: skew(-25deg);
+    -moz-transform: skew(-25deg);
+    -ms-transform: skew(-25deg);
+    -o-transform: skew(-25deg);
+    transform: skew(-25deg);
+    left: 33px;
+    top: 0;
+    margin-left: -60px;
+    z-index: 4;
+    overflow: hidden;
+}
+.text-btn-yellow-addcar {
+    margin-left: -10px;
+    position: absolute;
+    transform: skew(25deg);
+}
+/*----------------------------------
+------------ END ADDCAR  ----------
+------------------------------------*/
+
+/*----------------------------------
+-------------- PAYMENT  -------------
+------------------------------------*/
+.payment-padding{
+    padding: 0px;
+}
+
+.payment-font1{
+    color:#6C3483;
+    font-size: 30px;
+}
+
+.payment-font2{
+    font-family: 'kanitlight';
+}
+
+.payment-font3{
+    font-size: 30px;
+}
+
+.payment-w-h{
+    width: 100%
+    height:auto;
+}
+
+.payment-bg-yellow{
+    background-color:#edbd0b;
+    border-radius: 0px;
+}
+
+.payment-form{
+    width: 100%;
+    height: 50px;
+    color: #4d4d4d;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #d2d2d2;
+}
+
+.payment-form2{
+    width: 100%;
+    height: 50px;
+    color: #4d4d4d;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #d2d2d2;
+}
+
+.pay-select{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.pay-m-l{
+    margin-left: 100px;
+}
+
+.pay-m-l-2{
+    margin-left: 30px;
+}
+
+.pay-m-l-3{
+    margin-left: 33px;
+}
+
+.pay-m-l-4{
+    margin-left: 44px;
+}
+
+.pay-m-l-5{
+    margin-left: 30px;
+}
+
+.pay-m-l-6{
+    margin-left: 30px;
+}
+
+.pay-m-l-7{
+    margin-left: 30px;
+}
+
+.pay-m-l-8{
+    margin-left: 30px;
+}
+
+.pay-m-l-9{
+    margin-left: 30px;
+}
+
+.pay-m-l-10{
+    margin-left: 30px;
+}
+
+.pay-m-t{
+    margin-top: -4px;
+}
+
+.pay-m-t-2{
+    margin-top: 0px;
+}
+
+.pay-m-t-3{
+    margin-top: -5px;
+}
+
+.pay-m-t-4{
+    margin-top: 15px;
+}
+
+.pay-m-t-5{
+    margin-top: 10px;
+}
+
+.pay-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.pay-img2{
+
+}
+
+.pay-img3{
+
+}
+
+.pay-img4{
+
+}
+
+.payment-p-b{
+    padding-bottom: 10px;
+}
+
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #b308ea;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    background: #b308ea;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.btn-yellow-pay {
+    height: 60px;
+    min-width: 100%;
+    color: #eab40f;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 51px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 3px solid #bb8e03;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    background-color: #000;
+    padding-left: 85%;
+    padding-top: 5px;
+}
+
+.btn-yellow-pay:hover {
+    color: #eab40f;
+    opacity: 0.8;
+}
+
+.btn-yellow-pay .hover-bg {
+    color: #000;
+    display: block;
+    background-color: #eab40f;
+    width: 90%;
+    height: 102%;
+     position: absolute; 
+    -webkit-transform: skew(-25deg);
+    -moz-transform: skew(-25deg);
+    -ms-transform: skew(-25deg);
+    -o-transform: skew(-25deg);
+    transform: skew(-25deg);
+    left: 33px;
+    top: 0;
+    margin-left: -60px;
+    z-index: 4;
+    overflow: hidden;
+}
+.text-btn-yellow-pay {
+    margin-left: -25px;
+    position: absolute;
+    transform: skew(25deg);
+    padding-top: 4px;
+    font-family: 'kanitregular';
+    font-size: 20px;
+
+}
+
+::-webkit-file-upload-button {
+    background: #BDC3C7;
+    border:1px solid #A6ACAF;
+    padding: 14px;
+    font-size: 20px;
+}
+/*----------------------------------
+------------ END PAYMENT  ----------
+------------------------------------*/
+
+
+/*----------------------------------
+-------------- PROFILE  -------------
+------------------------------------*/
+.profile-img{
+    width: 100%;
+    height:auto;
+}
+
+.profile-m-t{
+    margin-top: 60px;
+}
+
+.profile-m-t-2{
+    margin-top: 40px;
+}
+
+.profile-m-t-3{
+    margin-top: 20px;
+}
+
+.profile-font1{
+    font-size: 25px;
+    font-family: 'kanitlight';
+}
+
+.profile-font2{
+    font-size: 18px;
+    font-family: 'kanitlight';
+    color:#909497;
+}
+
+.profile-font3{
+    font-size: 18px;
+    font-family: 'kanitlight';
+    color:#8E44AD;
+    text-align: left;
+}
+
+.profile-font4{
+    font-size: 20px;
+}
+
+.profile-font3:hover{
+    font-size: 18px;
+    font-family: 'kanitlight';
+    color:#6C3483;
+}
+
+.profile-border-bottom1{
+    border-bottom: 3px solid #8E44AD;
+    margin-right: 40px;
+}
+
+.profile-border-bottom2{
+    border-bottom: 3px solid #8E44AD;
+    margin-right: 83px;
+}
+
+.profile-form{
+    width: 100%;
+    height: 50px;
+    color: #4d4d4d;
+    padding: 10px;
+    border: 1px solid #4d4d4d;
+    font-size: 18px;
+}
+
+.profile-comment{
+    width: 100%;
+    height:100px;
+    padding: 10px;
+    border: 1px solid #4d4d4d;
+    font-size: 18px;
+}
+
+.profile-w-h{
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align:left;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+.pay-btn{
+    width: 100%;
+    height: 40px;
+    background-color:#fff;
+    color: #8E44AD;
+    font-size: 18px;
+    margin-left: -12px;
+    font-family: 'kanitlight';
+    text-align: left;
+}
+
+.pay-btn:hover{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    color: #5B2C6F;
+    font-family: 'kanitlight';
+    margin-left: -12px;
+    text-align: left;
+}
+/*----------------------------------
+----------- END PROFILE  -------------
+------------------------------------*/
+
+
+
+
+
+/*------------------------------------*
+$Car Details
+*------------------------------------*/
+
+
+::-webkit-scrollbar {
+      width: 7px;
+      height: 4px;
+} /* this targets the default scrollbar (compulsory) */
+
+::-webkit-scrollbar-track {
+      border-radius: 8px;
+      background-color: #ffffff;
+} /* the new scrollbar will have a flat appearance with the set background color */
+
+::-webkit-scrollbar-thumb {
+      border-radius: 8px;
+      background-color: #480884;
+      width:5px;
+} /* this will style the thumb, ignoring the track */
+
+::-webkit-scrollbar-button {
+      display:none;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+
+::-webkit-scrollbar-corner {
+      background-color: black;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+.car-details-price{
+  font-size: 28px;
+}
+
+.compare{
+  border: 1px outset grey;
+  height:20px;
+  width:20px;
+  cursor:pointer;
+}
+
+.gallery-left-col{
+  position:relative;
+  overflow: hidden;
+  width:100%;
+}
+
+.gallery-left{
+  position:relative;
+  overflow-y: auto;
+  width:100%;
+  flex-wrap: wrap;
+}
+
+.gallery-right{
+  position:relative;
+  overflow: hidden;
+  width:100%;
+}
+
+.mySlides{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.btn-showcase{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    z-index: 1;
+    font-size: 30px;
+    color:white;
+    font-weight: 700;
+    border: none;
+}
+
+.btn-showcase:active{
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.btn-showcase:focus{
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.gallery-right .next{
+    top: 45%;
+    right: 0%;
+}
+
+.gallery-right .previous{
+    top: 45%;
+    left: 0%;
+}
+
+.message-from-seller{
+  width:100%;
+}
+
+.message-from-seller:first-child{
+  border-bottom: 1px solid grey;
+  margin-bottom: 5px;
+}
+
+.message-from-seller:last-child{
+  font-size: 15px;
+  color:grey;
+}
+
+.specific-details-box{
+  width:100%;
+  border: 1px solid black;
+  padding:10px;
+}
+
+.specific-details-section{
+  border-bottom: 1px solid grey;
+}
+
+.specific-details-section span{
+  font-size: 15px;
+  color:grey;
+}
+
+.text-purple-overide {
+  color: #480784 !important;
+}
+
+.booking-details{
+  margin-left: -80px !important;
+}
+
+.visited-frame{
+  position:relative;
+  overflow: hidden;
+  width:100%;
+}
+
+.visited-product{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.visited-details{
+  position:relative;
+  overflow:hidden;
+}
+
+.visited-details h5{
+  position:absolute;
+  bottom:0;
+  left:0;
+  margin-bottom: 0;
+}
+
+.recent-view-section{
+  border-bottom: 1px solid grey;
+}
+
+.visited-box{
+  border-top: 1px solid grey;
+}
+
+.sponsor-banner-section{
+  width:100%;
+  height:80vh;
+  overflow:hidden;
+}
+
+.sponsor-banner{
+  width:100%;
+  height:100%;
+}
+
+.related-product-text-box{
+  height:25px;
+}
+
+.related-product-text-price{
+  height:25px;
+}
+
+/*------------------------------------*
+$END Car Details
+*------------------------------------*/
 
 /*--------------------------------------------
 ---------------- Responsive ------------------
@@ -958,6 +2155,14 @@ a:active {
   /*-----------------------
   END HOME 1366
   ------------------------*/
+
+  .gallery-left-box{
+    padding-right: 5px !important;
+  }
+
+  .sponsor-banner-section{
+    height:80vh;
+  }
 }
 
 
@@ -969,9 +2174,21 @@ a:active {
       width: 104px;
       text-align: center;
   }
-    .navbar-text-link {
+  .navbar-text-link {
       color: #fff!important;
-      font-size: 18px;
+      font-size: 15px;
+  }
+  .navbarmenu-dropdown {
+      background: none;
+      top: 50px;
+      border: none;
+      border: none;
+      padding: 10px 25px;
+      margin: 1px -60px;
+      left: unset;
+  }
+  .dropdown2sdf {
+      margin: 1px -30px!important;
   }
   /*-----------------------
   END NAVBAR 1024
@@ -1008,7 +2225,7 @@ a:active {
   .home-porduct-img {
       position: relative;
       overflow: hidden;
-      height: 190px;
+      height: 165px;
       margin-bottom: 10px;
   }
   /*----------------------
@@ -1026,8 +2243,6 @@ a:active {
   }
   .booking-20 {
       font-size: 18px;
-      overflow: hidden;
-      height: 35px;
   }
   /*-----------------------
   END BOOKING HISTORY 1024
@@ -1050,30 +2265,403 @@ a:active {
   /*-----------------------
   END FAVIRITES 1024
   ------------------------*/
-
-/*---------- SHOW PRODUCT 1024 -----*/
-.show-product-fix-img {
-    overflow: hidden;
-    height: 190px;
-}
-/*------- END SHOW PRODUCT 1024 -----*/
-
-
-
-/*--------- start button -----------*/
-    .btn-small{
-        min-width: 136px;
+/*-------------------------
+POND 1024
+----------------------------*/
+    .checkmark1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 50%;
+        border:1px solid #cecfcf;
+        margin-left: 0px;
+        margin-top: 10px;
     }
-    .btn-small .hover-bg{
+
+    .checkmark2{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #dbbb8a, #f4e9bb);
+        border-radius: 50%;
+        border:none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .checkmark3{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #9a999c, #e2e4e4);
+        border-radius: 50%;
+        border:none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .checkmark4{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #808080, #a9abae);
+        border-radius: 50%;
+        border:none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .checkmark5{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #0a7cc0, #64cfe1);
+        border-radius: 50%;
+        border:none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .checkmark6{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #405eae, #489bd4);
+        border-radius: 50%;
+        border:none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .checkmark7{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #0c7f45, #88c54a);
+        border-radius: 50%;
+        border:none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .checkmark8{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #CD853F, #DAA520);
+        border-radius: 50%;
+        border:none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .checkmark9{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #cec333, #f5ed0e);
+        border-radius: 50%;
+        border:none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .checkmark10{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #f26d2d, #f8b042);
+        border-radius: 50%;
+        border:none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .checkmark11{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #e5262f, #f2755c);
+        border-radius: 50%;
+        border:none;
+        margin-left:0px;
+        margin-top: 10px;
+    }
+
+    .checkmark12{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #e20796, #ee6bac);
+        border-radius: 50%;
+        border:none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .checkmark13{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #87389b, #af78b4);
+        border-radius: 50%;
+        border: none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .checkmark14{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #6c2516, #915227);
+        border-radius: 50%;
+        border:none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .checkmark15{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 41px;
+        height: 41px;
+        background: url("../../assets/images/dot.jpg");
+        background-size:cover;
+        border-radius: 50%;
+        border: 1px solid #cecfcf;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+
+
+    .addcar-w-h{
+       width: 60px;
+       height: 70px;
+    }
+
+    .addcar-select span:after {
+        top: 0px;
+        left: 0px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%; 
+        background: url("../../assets/images/check2.png");
+        background-size:cover; 
+        background-color: black;
+        opacity:0;
+    }
+
+    .addcar-p-1{
+        padding-left: 7px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-2{
+        padding-left: 5px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-3{
+        padding-left: 7px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-4{
+        padding-left: 8px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-5{
+        padding-left: 9px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-6{
+        padding-left: 0px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-7{
+        padding-left: 3px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-8{
+        padding-left: 4px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-9{
+        padding-left: 0px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-10{
+        padding-left: 8px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-11{
+        padding-left: 5px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-12{
+        padding-left: 5px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-13{
+        padding-left: 5px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-14{
+        padding-left: 0px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-15{
+        padding-left: 6px;
+        padding-top: 24px;
+    }
+
+    .addcar-upload{
         width: 100%;
+        height: 250px;
+        background-image: url(../../assets/images/upload.png);
+        background-size: cover;
     }
-    .compare-fix-img {
-      overflow: hidden;
-      height: 130px;
+
+    .profile-border-bottom1{
+        border-bottom: 3px solid #8E44AD;
+        margin-right: 95px;
+    }
+
+    .profile-border-bottom2{
+        border-bottom: 3px solid #8E44AD;
+        margin-right: 130px;
+    }
+
+    .payment-font1{
+        color: #6c3483;
+        font-size: 27px;
+    }
+
+    .payment-font3{
+        font-size: 27px;
+    }
+
+    .pay-m-t-2{
+        margin-top: 0px;
+    }
+
+    .pay-m-t-5{
+        margin-top: 15px;
+    }
+
+    .pay-m-l-2{
+        margin-left: 13px;
+    }
+
+    .pay-m-l-3{
+        margin-left: 5px;
+    }
+
+    .pay-m-l-4{
+        margin-left: 13px;
+    }
+
+    .pay-m-l-5{
+        margin-left:60px;
+    }
+
+    .pay-m-l-6{
+        margin-left: 60px;
+    }
+
+    .pay-m-l-7{
+        margin-left: 71px;
+    }
+
+    .pay-m-t-3{
+         margin-top: 4px;
+    }   
+
+    .pay-img2{
+        margin-top: -6px;
+        position: absolute;
+        margin-left: 93px;
+    }
+
+    .pay-img3{
+        margin-top: -6px;
+        position: absolute;
+        margin-left: 93px;
+    }
+
+    .pay-img4{
+        margin-top: -6px;
+        position: absolute;
+        margin-left: 90px;
+    }
+/*---------------------------
+END POND 1024
+-----------------------------*/
+/*-----------------------------
+  ---------index 1024------------
+  ------------------------------*/
+
+  .index_pad {
+      padding: 450px 0px 0px 0px;
   }
-/*----------- end button -----------*/   
+  .index_icon-thai-eng {
+      display: flex;
+      padding: 15px 360px;
+  }
+  .index_fix_frame {
+      padding: 0px 0px 0px 0px; 
+    }
+
+  /*-----------------------------
+  ---------index 1024 end--------
+  ------------------------------*/
+/*-----------------------------
+  ------show product 1024-------
+  ------------------------------*/
+  .btn-small {
+      min-width: 136px;
+  }
+
+/*-----------------------------
+------show product 1024---------
+  ------------------------------*/
+
+  .sponsor-banner-section{
+    height:50vh;
+  }
 
 }
+
+
 
 
 @media(max-width: 768px){
@@ -1088,6 +2676,26 @@ a:active {
       color: #fff!important;
       font-size: 20px;
   }
+  .navbar-responsive-dropdown {
+      width: 70px!important;
+      margin-left: 10px!important;
+  }
+  .navbar-responsive-dropdown2 {
+      width: 108px!important;
+      margin-left: 10px!important;
+  }
+  .navbarmenu-dropdown {
+      background: none;
+      top: 50px;
+      border: none;
+      border: none;
+      padding: 10px 25px;
+      margin: 0px 0px;
+      left: unset;
+  }
+  .dropdown2sdf {
+    margin: 1px 0px!important;
+}
   /*-----------------------
   END NAVBAR 768
   -------------------------*/
@@ -1131,7 +2739,7 @@ a:active {
   .home-porduct-img {
       position: relative;
       overflow: hidden;
-      height: 210px;
+      height: 185px;
       margin-bottom: 10px;
   }
   /*--------------------------
@@ -1202,8 +2810,81 @@ a:active {
         overflow: hidden;
         height: 210px;
     }
-  /*----------- end button -----------*/   
+  /*----------- end button -----------*/  
+
+ /*-----------------------------
+  ---------index 768------------
+  ------------------------------*/
+
+  .index_pad {
+      padding: 320px 0px 0px 0px;
+  }
+  .index_icon-thai-eng {
+      display: flex;
+      padding: 10px 240px;
+  }
+
+  /*-----------------------------
+  ---------index 768 end--------
+  ------------------------------*/
+
+
+/*----------------------------------
+----------  ADDCAR 768 ------------
+------------------------------------*/
+.addcar-upload{
+    width: 100%;
+    height: 180px;
+    background-image: url(../../assets/images/upload.png);
+    background-size: cover;
 }
+/*----------------------------------
+---------- END ADDCAR 768 ----------
+------------------------------------*/
+
+
+/*----------------------------------
+----------  PROFILE 768 ------------
+------------------------------------*/
+    .profile-m-t{
+        margin-top: 40px;
+    }
+
+    .profile-border-bottom2{
+        border-bottom: 3px solid #8E44AD;
+        margin-right: 165px;
+    }
+/*----------------------------------
+---------- END PROFILE 768 ------------
+------------------------------------*/
+
+
+    .gallery-left-box{
+      overflow-x: auto;
+      padding-right: 0px !important;
+    }
+
+    .gallery-left-col{
+      position:relative;
+      overflow: hidden;
+      width:25%;
+      display: inline-block;
+    }
+
+    .gallery-left{
+      overflow-y: hidden;
+      white-space: nowrap;
+    }
+
+    .sponsor-banner-section{
+      width:50%;
+      margin-left: auto;
+      margin-right: auto;
+      height:90vh;
+    }
+
+}
+
 
 
 @media(max-width: 414px){
@@ -1279,7 +2960,7 @@ a:active {
   .home-porduct-img {
       position: relative;
       overflow: hidden;
-      height: 235px;
+      height: 205px;
       margin-bottom: 10px;
   }
   /*-----------------------
@@ -1370,6 +3051,451 @@ a:active {
     }
 /*----------- end button -----------*/  
 
+ /*-----------------------------
+  ---------index 414------------
+  ------------------------------*/
+
+  .index_pad {
+      padding: 220px 0px 0px 0px;
+  }
+  .index_icon-thai-eng {
+      display: flex;
+      padding: 5px 90px;
+  }
+  /*-----------------------------
+  ---------index 414 end--------
+  ------------------------------*/
+
+
+/*----------------------------------
+------------ ADDCAR 414  ----------
+------------------------------------*/
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 50%;
+        border:1px solid #cecfcf;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .checkmark2{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #dbbb8a, #f4e9bb);
+        border-radius: 50%;
+        border:none;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .checkmark3{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #9a999c, #e2e4e4);
+        border-radius: 50%;
+        border:none;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .checkmark4{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #808080, #a9abae);
+        border-radius: 50%;
+        border:none;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .checkmark5{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #0a7cc0, #64cfe1);
+        border-radius: 50%;
+        border:none;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .checkmark6{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #405eae, #489bd4);
+        border-radius: 50%;
+        border:none;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .checkmark7{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #0c7f45, #88c54a);
+        border-radius: 50%;
+        border:none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .checkmark8{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #CD853F, #DAA520);
+        border-radius: 50%;
+        border:none;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .checkmark9{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #cec333, #f5ed0e);
+        border-radius: 50%;
+        border:none;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .checkmark10{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #f26d2d, #f8b042);
+        border-radius: 50%;
+        border:none;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .checkmark11{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #e5262f, #f2755c);
+        border-radius: 50%;
+        border:none;
+        margin-left:10px;
+        margin-top: 10px;
+    }
+
+    .checkmark12{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #e20796, #ee6bac);
+        border-radius: 50%;
+        border:none;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .checkmark13{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #87389b, #af78b4);
+        border-radius: 50%;
+        border:none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .checkmark14{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #6c2516, #915227);
+        border-radius: 50%;
+        border:none;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .checkmark15{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 41px;
+        height: 41px;
+        background: url(../../assets/images/dot.jpg);
+        background-size:cover;
+        border-radius: 50%;
+        border: 1px solid #cecfcf;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .addcar-w-h{
+       width: 59px;
+       height: 70px;
+    }
+
+    .addcar-select span:after {
+        top: 0px;
+        left: 0px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%; 
+        background: url(../../assets/images/check2.png);
+        background-size:cover; 
+        background-color: black;
+        opacity:0;
+    }
+
+    .addcar-p-1{
+        padding-left: 7px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-2{
+        padding-left: 8px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-3{
+        padding-left: 15px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-4{
+        padding-left: 16px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-5{
+        padding-left: 15px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-6{
+        padding-left: 7px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-7{
+        padding-left: 2px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-8{
+        padding-left: 4px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-9{
+        padding-left: 7px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-10{
+        padding-left: 17px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-11{
+        padding-left: 13px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-12{
+        padding-left: 13px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-13{
+        padding-left: 5px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-14{
+        padding-left: 0px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-15{
+        padding-left: 15px;
+        padding-top: 24px;
+    }
+
+    .addcar-padding-top{
+        padding-top: 20px;
+    }
+
+    .addcar-padding-top2{
+        padding-top: 20px;
+    }
+
+    .addcar-padding{
+        padding: 0px;
+    }
+
+    .addcar-upload{
+        width: 100%;
+        height: 300px;
+        background-image: url(../../assets/images/upload.png);
+        background-size: cover;
+    }
+/*----------------------------------
+---------- END ADDCAR 414 ----------
+------------------------------------*/
+
+/*----------------------------------
+---------- PAYMENT 414 ------------
+------------------------------------*/
+    .payment-font1{
+        color:#6C3483;
+        font-size: 27px;
+    }
+
+    .payment-font3{
+        font-size: 27px;
+    }
+
+    .pay-m-t-2{
+        margin-top: 10px;
+    }
+
+    .pay-m-t-5{
+        margin-top: 15px;
+    }
+
+    .pay-m-l-2{
+        margin-left: 10px;
+    }
+
+    .pay-m-l-3{
+        margin-left: 13px;
+    }
+
+    .pay-m-l-4{
+        margin-left: 13px;
+    }
+
+    .pay-m-l-5{
+        margin-left: 15px;
+    }
+
+    .pay-m-l-6{
+        margin-left: 15px;
+    }
+
+    .pay-m-l-7{
+        margin-left: 15px;
+    }
+
+    .pay-m-l-8{
+        margin-left: 15px;
+    }
+
+    .pay-m-l-9{
+        margin-left: 15px;
+    }
+
+    .pay-m-l-10{
+        margin-left: 15px;
+    }
+
+    .pay-m-t-3{
+         margin-top: 4px;
+    }   
+
+    .pay-img2{
+        margin-top: -6px;
+        position: absolute;
+        margin-left: 95px;
+    }
+
+    .pay-img3{
+        margin-top: -6px;
+        position: absolute;
+        margin-left: 80px;
+    }
+
+    .pay-img4{
+        margin-top: -6px;
+        position: absolute;
+        margin-left: 85px;
+    }
+/*----------------------------------
+---------- END PAYMENT 414 ----------
+------------------------------------*/
+
+
+/*----------------------------------
+---------- PROFILE 414 ----------
+------------------------------------*/
+    .profile-m-t-2{
+        margin-top: 20px;
+    }
+
+    .profile-m-t-3{
+        margin-top: 20px;
+    }
+
+    .pay-btn{
+        width: 100%;
+        height: 40px;
+        background-color:#fff;
+        color: #8E44AD;
+        font-size: 18px;
+        margin-left: -12px;
+        font-family: 'kanitlight';
+        text-align: center;
+    }
+
+    .pay-btn:hover{
+        width: 100%;
+        height: 40px;
+        background-color: #fff;
+        color: #5B2C6F;
+        font-family: 'kanitlight';
+        margin-left: -12px;
+        text-align: center;
+    }
+/*----------------------------------
+---------- END PROFILE 414 ----------
+------------------------------------*/
+
+   .gallery-left-box{
+      padding-left: 0px !important;
+    }
+
+    .sponsor-banner-section{
+      width:80%;
+
+    }
+
+    .modal-dialog {
+        margin: 5rem auto;
+    }
+
 }
 
 @media(max-width: 375px){
@@ -1404,7 +3530,7 @@ a:active {
   .home-porduct-img {
       position: relative;
       overflow: hidden;
-      height: 210px;
+      height: 185px;
       margin-bottom: 10px;
   }
   /*-----------------------
@@ -1455,6 +3581,109 @@ a:active {
       height: 210px;
   }
   /*------ END COMPARE 375 --------*/
+  
+  /*------------------------------
+  -------------index 375---------
+  --------------------------------*/
+  .index_icon-thai-eng {
+      display: flex;
+      padding: 5px 69px;
+  }
+  /*------------------------------
+  -------------index 375 end--------
+  --------------------------------*/
+
+/*----------------------------------
+------------ ADDCAR 375 ------------
+------------------------------------*/
+    .checkmark3{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #9a999c, #e2e4e4);
+        border-radius: 50%;
+        border:none;
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+
+    .checkmark9{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #cec333, #f5ed0e);
+        border-radius: 50%;
+        border:none;
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+
+    .checkmark15{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 41px;
+        height: 41px;
+        background: url(../../assets/images/dot.jpg);
+        background-size:cover;
+        border-radius: 50%;
+        border: 1px solid #cecfcf;
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+
+    .addcar-p-1{
+        padding-left: 4px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-3{
+        padding-left: 13px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-5{
+        padding-left: 17px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-8{
+        padding-left: 7px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-9{
+        padding-left: 3px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-13{
+        padding-left: 3px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-15{
+        padding-left: 13px;
+        padding-top: 24px;
+    }
+
+    .addcar-w-h{
+       width: 52px;
+       height: 70px;
+    }
+
+    .addcar-upload{
+        width: 100%;
+        height: 270px;
+        background-image: url(../../assets/images/upload.png);
+        background-size: cover;
+    }
+/*----------------------------------
+---------- END ADDCAR 375 ----------
+------------------------------------*/
+
 }
 
 @media(max-width: 320px){
@@ -1502,11 +3731,11 @@ a:active {
         min-width: 100%;
     }
     .home-porduct-img {
-      position: relative;
-      overflow: hidden;
-      height: 170px;
-      margin-bottom: 10px;
-  }
+        position: relative;
+        overflow: hidden;
+        height: 155px;
+        margin-bottom: 10px;
+    }
   /*-----------------------
   HOME 320
   -------------------------*/
@@ -1576,4 +3805,220 @@ a:active {
       height: 170px;
   }
   /*------ END SHOW PRODUCT 320 ----------*/
+
+  /*------------------------------
+  -------------index 320---------
+  --------------------------------*/
+  .index_pad {
+      padding: 150px 0px 0px 0px;
+  }
+  .index_icon-thai-eng {
+      display: flex;
+      padding: 5px 43px;
+  }
+  /*------------------------------
+  -------------index 320 end--------
+  --------------------------------*/
+
+/*----------------------------------
+----------  ADDCAR 320 ------------
+------------------------------------*/
+    .checkmark2{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #dbbb8a, #f4e9bb);
+        border-radius: 50%;
+        border:none;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .checkmark3{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #9a999c, #e2e4e4);
+        border-radius: 50%;
+        border:none;
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+
+    .checkmark6{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #405eae, #489bd4);
+        border-radius: 50%;
+        border:none;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .checkmark7{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #0c7f45, #88c54a);
+        border-radius: 50%;
+        border:none;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .checkmark8{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #CD853F, #DAA520);
+        border-radius: 50%;
+        border:none;
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+
+    .checkmark9{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #cec333, #f5ed0e);
+        border-radius: 50%;
+        border:none;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .checkmark11{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #e5262f, #f2755c);
+        border-radius: 50%;
+        border:none;
+        margin-left:0px;
+        margin-top: 10px;
+    }
+
+    .checkmark12{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #e20796, #ee6bac);
+        border-radius: 50%;
+        border:none;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .checkmark13{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #87389b, #af78b4);
+        border-radius: 50%;
+        border:none;
+        margin-left: 8px;
+        margin-top: 10px;
+    }
+
+    .checkmark14{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px;
+        background: linear-gradient(to top, #6c2516, #915227);
+        border-radius: 50%;
+        border:none;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .addcar-p-6{
+        padding-left: 0px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-7{
+        padding-left: 7px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-8{
+        padding-left: 10px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-11{
+        padding-left: 4px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-12{
+        padding-left: 8px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-13{
+        padding-left: 10px;
+        padding-top: 24px;
+    }
+
+    .addcar-p-14{
+        padding-left: 2px;
+        padding-top: 24px;
+    }
+
+    .addcar-upload{
+        width: 100%;
+        height: 235px;
+        background-image: url(../../assets/images/upload.png);
+        background-size: cover;
+    }
+    /*----------------------------------
+    ---------- END ADDCAR 320 ----------
+    ------------------------------------*/
+
+
+    /*----------------------------------
+    ---------- PAYMENT 320 ------------
+    ------------------------------------*/
+    .payment-font1{
+        color:#6C3483;
+    }
+
+    .payment-font2{
+        font-family: 'kanitlight';
+    }
+
+    ::-webkit-file-upload-button {
+        background: #BDC3C7;
+        border:1px solid #A6ACAF;
+        font-size: 16px;
+    }
+    /*----------------------------------
+    ---------- END PAYMENT 320 ------------
+    ------------------------------------*/
+
+
+
+    /*----------------------------------
+    ----------  PROFILE 320 ------------
+    ------------------------------------*/
+    .profile-border-bottom2{
+        border-bottom: 3px solid #8E44AD;
+        margin-right: 70px;
+    }
+    /*----------------------------------
+    --------- END PROFILE 320 ----------
+    ------------------------------------*/
 }

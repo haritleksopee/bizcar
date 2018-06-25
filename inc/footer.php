@@ -13,7 +13,7 @@
 
       <div class="co-xl-4 col-lg col-md-4 mb-md-0 mb-3">
         <div class=" text-md-left text-center">
-          <h4 class="footer-font-h4">ROEDUSED JINGJAI</h4>
+          <h4 class="footer-font-h4">RODUSED JINGJAI</h4>
         </div>
         <div class="footer-set-font text-md-left text-center">
           <p>1871 ซอยเพชรเกษม 77 ถนนเพชรเกษม, แขวงหลักสอง, เขตบางแค่ กรุงเทพฯ 10160</p>
@@ -24,7 +24,7 @@
 
       <div class="col-xl-3 col-lg col-md-5 px-0 mb-md-0 mb-3">
         <div class="row footer-contact mb-md-0 mb-2">
-          <div class="col-lg-2 col-md-3 col-12 text-md-left text-center px-0">
+          <div class="col-lg-2 col-md-3 col-12 text-md-left text-center px-0 font-weight-400">
             <p>โทร</p>
           </div>
           <div class="col-lg-10 col-md-9 col-12 text-md-left text-center px-0">
@@ -32,7 +32,7 @@
           </div>
         </div>
         <div class="row footer-contact mb-md-0 mb-2">
-          <div class="col-lg-2 col-md-3 col-12 text-md-left text-center px-0">
+          <div class="col-lg-2 col-md-3 col-12 text-md-left text-center px-0 font-weight-400">
             <p>แฟกซ์</p>
           </div>
           <div class="col-lg-10 col-md-9 col-12 text-md-left text-center px-0">
@@ -40,7 +40,7 @@
           </div>
         </div>
         <div class="row footer-contact mb-md-0 mb-2">
-          <div class="col-lg-2 col-md-3 col-12 text-md-left text-center px-0">
+          <div class="col-lg-2 col-md-3 col-12 text-md-left text-center px-0 font-weight-400">
             <p>E-mail</p>
           </div>
           <div class="col-lg-10 col-md-9 col-12 text-md-left text-center px-0">

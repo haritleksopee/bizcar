@@ -21,7 +21,7 @@
             <div class="card-body home-head-product">
               <div class="text-white">
                 <div class="font-18">
-                  <span>รายการโปรด</span>
+                  <span>ประวัติการจอง</span>
                 </div>
               </div>
             </div>
@@ -155,7 +155,7 @@
 
 
       <!-- END INPUT BOTTOM BORDER -->
-      
+      <?php include_once('inc/chat-box.php'); ?>   
     </div>
 
     <!-- START FOOTER -->

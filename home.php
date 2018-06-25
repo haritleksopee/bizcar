@@ -112,7 +112,7 @@
               </div>
             </div>
             <div class="row mt-4">
-              <div class="col-lg-6">
+              <div class="col-lg-6 mt-lg-3 mt-3">
                 <a href="#" class="btn-purple skip w-100 home-padding-320">
                   <span class="hover-bg reset home-width-responsive">
                     <span class="hover-text reset">
@@ -122,7 +122,7 @@
                   <i class="fa fa-chevron-right" aria-hidden="true"></i>
                 </a>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6 mt-lg-3 mt-3">
                 <a href="#" class="btn-yellow skip w-100">
                   <span class="hover-bg reset">
                     <span class="hover-text reset">
@@ -136,7 +136,7 @@
           </div>
           <div class="card-footer card-footer-all">
             <div class="font-18 text-center">
-              <a href="#" class="text-purple"><u>ค้นหารถยนต์โดยละเอียด</u></a>
+              <a href="#" class="text-purple" data-toggle="modal" data-target="#searchCar"><u>ค้นหารถยนต์โดยละเอียด</u></a>
             </div> 
           </div>
         </div>
@@ -161,13 +161,13 @@
         <div class="col-lg-4 col-md-6 col-12 my-3">
           <div class="card card-all">
             <div class="home-porduct-img">
-              <a href="#">
+              <a href="car-details.php">
                 <img class="card-img-top border-radius-none home-img-porduct" src="assets/images/car/Ford-Edge-Sport-2016.jpg" alt="Card image cap">
               </a>
             </div>
             <div class="card-body px-0 py-0">
               <div class="card-head-content">
-                <h5 class="card-title">2017 HONDA CIVIC</h5>
+                <h5 class="card-title">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
               </div>
               <div class="card-content">
                 <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
@@ -175,12 +175,12 @@
             </div>
             <div class="card-footer card-footer-all px-0 text-purple py-0">
               <div class="row">
-                <div class="col-lg-9 px-0">
+                <div class="col-9 px-0">
                   <div class="text-left">
-                    <span>279,000 บาท</span>
+                    <span class="font-weight-500">279,000 บาท</span>
                   </div>
                 </div>
-                <div class="col-lg-3 px-0">
+                <div class="col-3 px-0">
                   <div class="text-right cursor-pointer">
                     <span><i onclick="myFunction(this)" class="fa fa-star-o text-gray" aria-hidden="true"></i></span>
                   </div>
@@ -192,13 +192,13 @@
         <div class="col-lg-4 col-md-6 col-12 my-3">
           <div class="card card-all">
             <div class="home-porduct-img">
-              <a href="#">
+              <a href="car-details.php">
                   <img class="card-img-top border-radius-none home-img-porduct" src="assets/images/car/45_crvjpg.jpg" alt="Card image cap">
               </a>
             </div>
             <div class="card-body px-0 py-0">
               <div class="card-head-content">
-                <h5 class="card-title">2017 HONDA CIVIC</h5>
+                <h5 class="card-title">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
               </div>
               <div class="card-content">
                 <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
@@ -206,12 +206,12 @@
             </div>
             <div class="card-footer card-footer-all px-0 text-purple py-0">
               <div class="row">
-                <div class="col-lg-9 px-0">
+                <div class="col-9 px-0">
                   <div class="text-left">
-                    <span>279,000 บาท</span>
+                    <span class="font-weight-500">279,000 บาท</span>
                   </div>
                 </div>
-                <div class="col-lg-3 px-0">
+                <div class="col-3 px-0">
                   <div class="text-right cursor-pointer">
                     <span><i onclick="myFunction(this)" class="fa fa-star-o text-gray" aria-hidden="true"></i></span>
                   </div>
@@ -223,13 +223,13 @@
         <div class="col-lg-4 col-md-6 col-12 my-3">
           <div class="card card-all">
             <div class="home-porduct-img">
-              <a href="#">
+              <a href="car-details.php">
                   <img class="card-img-top border-radius-none home-img-porduct" src="assets/images/car/c23afbda3cb7df88c914574fe68ce1d2.jpg" alt="Card image cap">
               </a>
             </div>
             <div class="card-body px-0 py-0">
               <div class="card-head-content">
-                <h5 class="card-title">2017 HONDA CIVIC</h5>
+                <h5 class="card-title">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
               </div>
               <div class="card-content">
                 <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
@@ -237,12 +237,12 @@
             </div>
             <div class="card-footer card-footer-all px-0 text-purple py-0">
               <div class="row">
-                <div class="col-lg-9 px-0">
+                <div class="col-9 px-0">
                   <div class="text-left">
-                    <span>279,000 บาท</span>
+                    <span class="font-weight-500">279,000 บาท</span>
                   </div>
                 </div>
-                <div class="col-lg-3 px-0">
+                <div class="col-3 px-0">
                   <div class="text-right cursor-pointer">
                     <span><i onclick="myFunction(this)" class="fa fa-star-o text-gray" aria-hidden="true"></i></span>
                   </div>
@@ -254,13 +254,13 @@
         <div class="col-lg-4 col-md-6 col-12 my-3">
           <div class="card card-all">
             <div class="home-porduct-img">
-              <a href="#">
+              <a href="car-details.php">
                   <img class="card-img-top border-radius-none home-img-porduct" src="assets/images/car/i1-4580.jpg" alt="Card image cap">
               </a>
             </div>
             <div class="card-body px-0 py-0">
               <div class="card-head-content">
-                <h5 class="card-title">2017 HONDA CIVIC</h5>
+                <h5 class="card-title">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
               </div>
               <div class="card-content">
                 <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
@@ -268,12 +268,12 @@
             </div>
             <div class="card-footer card-footer-all px-0 text-purple py-0">
               <div class="row">
-                <div class="col-lg-9 px-0">
+                <div class="col-9 px-0">
                   <div class="text-left">
-                    <span>279,000 บาท</span>
+                    <span class="font-weight-500">279,000 บาท</span>
                   </div>
                 </div>
-                <div class="col-lg-3 px-0">
+                <div class="col-3 px-0">
                   <div class="text-right cursor-pointer">
                     <span><i onclick="myFunction(this)" class="fa fa-star-o text-gray" aria-hidden="true"></i></span>
                   </div>
@@ -285,13 +285,13 @@
         <div class="col-lg-4 col-md-6 col-12 my-3">
           <div class="card card-all">
             <div class="home-porduct-img">
-              <a href="#">
+              <a href="car-details.php">
                   <img class="card-img-top border-radius-none home-img-porduct" src="assets/images/car/Ford-Edge-Sport-2016.jpg" alt="Card image cap">
               </a>
             </div>
             <div class="card-body px-0 py-0">
               <div class="card-head-content">
-                <h5 class="card-title">2017 HONDA CIVIC</h5>
+                <h5 class="card-title">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
               </div>
               <div class="card-content">
                 <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
@@ -299,12 +299,12 @@
             </div>
             <div class="card-footer card-footer-all px-0 text-purple py-0">
               <div class="row">
-                <div class="col-lg-9 px-0">
+                <div class="col-9 px-0">
                   <div class="text-left">
-                    <span>279,000 บาท</span>
+                    <span class="font-weight-500">279,000 บาท</span>
                   </div>
                 </div>
-                <div class="col-lg-3 px-0">
+                <div class="col-3 px-0">
                   <div class="text-right cursor-pointer">
                     <span><i onclick="myFunction(this)" class="fa fa-star-o text-gray" aria-hidden="true"></i></span>
                   </div>
@@ -316,13 +316,13 @@
         <div class="col-lg-4 col-md-6 col-12 my-3">
           <div class="card card-all">
             <div class="home-porduct-img">
-              <a href="#">
+              <a href="car-details.php">
                   <img class="card-img-top border-radius-none home-img-porduct" src="assets/images/car/c23afbda3cb7df88c914574fe68ce1d2.jpg" alt="Card image cap">
               </a>
             </div>
             <div class="card-body px-0 py-0">
               <div class="card-head-content">
-                <h5 class="card-title">2017 HONDA CIVIC</h5>
+                <h5 class="card-title">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
               </div>
               <div class="card-content">
                 <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
@@ -330,12 +330,12 @@
             </div>
             <div class="card-footer card-footer-all px-0 text-purple py-0">
               <div class="row">
-                <div class="col-lg-9 px-0">
+                <div class="col-9 px-0">
                   <div class="text-left">
-                    <span>279,000 บาท</span>
+                    <span class="font-weight-500">279,000 บาท</span>
                   </div>
                 </div>
-                <div class="col-lg-3 px-0">
+                <div class="col-3 px-0">
                   <div class="text-right cursor-pointer">
                     <span><i onclick="myFunction(this)" href="#" class="fa fa-star-o text-gray" aria-hidden="true"></i></span>
                   </div>
@@ -350,7 +350,7 @@
       <div class="row mb-5">
         <div class="col-12">
           <div class="text-right">
-            <a href="#" class="btn-yellow skip home-btn-yollow">
+            <a href="show_product.php" class="btn-yellow skip home-btn-yollow">
               <span class="hover-bg reset home-btn-reset">
                 <span class="hover-text reset home-hover-text">
                   <span class="text-btn-yellow"><span>ดูทั้งหมด</span></span>
@@ -379,13 +379,13 @@
         <div class="col-lg-4 col-md-6 col-12 my-3">
           <div class="card card-all">
             <div class="home-porduct-img">
-              <a href="#">
+              <a href="car-details.php">
                 <img class="card-img-top border-radius-none home-img-porduct" src="assets/images/car/gallardo-0638.jpg" alt="Card image cap">
               </a>
             </div>
             <div class="card-body px-0 py-0">
               <div class="card-head-content">
-                <h5 class="card-title">2017 HONDA CIVIC</h5>
+                <h5 class="card-title">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
               </div>
               <div class="card-content">
                 <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
@@ -393,12 +393,12 @@
             </div>
             <div class="card-footer card-footer-all px-0 text-purple py-0">
               <div class="row">
-                <div class="col-lg-9 px-0">
+                <div class="col-9 px-0">
                   <div class="text-left">
-                    <span>279,000 บาท</span>
+                    <span class="font-weight-500">279,000 บาท</span>
                   </div>
                 </div>
-                <div class="col-lg-3 px-0">
+                <div class="col-3 px-0">
                   <div class="text-right cursor-pointer">
                     <span><i onclick="myFunction(this)" class="fa fa-star-o text-gray" aria-hidden="true"></i></span>
                   </div>
@@ -410,13 +410,13 @@
         <div class="col-lg-4 col-md-6 col-12 my-3">
           <div class="card card-all">
             <div class="home-porduct-img">
-              <a href="#">
+              <a href="car-details.php">
                   <img class="card-img-top border-radius-none home-img-porduct" src="assets/images/car/45_crvjpg.jpg" alt="Card image cap">
               </a>
             </div>
             <div class="card-body px-0 py-0">
               <div class="card-head-content">
-                <h5 class="card-title">2017 HONDA CIVIC</h5>
+                <h5 class="card-title">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
               </div>
               <div class="card-content">
                 <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
@@ -424,12 +424,12 @@
             </div>
             <div class="card-footer card-footer-all px-0 text-purple py-0">
               <div class="row">
-                <div class="col-lg-9 px-0">
+                <div class="col-9 px-0">
                   <div class="text-left">
-                    <span>279,000 บาท</span>
+                    <span class="font-weight-500">279,000 บาท</span>
                   </div>
                 </div>
-                <div class="col-lg-3 px-0">
+                <div class="col-3 px-0">
                   <div class="text-right cursor-pointer">
                     <span><i onclick="myFunction(this)" class="fa fa-star-o text-gray" aria-hidden="true"></i></span>
                   </div>
@@ -441,13 +441,13 @@
         <div class="col-lg-4 col-md-6 col-12 my-3">
           <div class="card card-all">
             <div class="home-porduct-img">
-              <a href="#">
+              <a href="car-details.php">
                   <img class="card-img-top border-radius-none home-img-porduct" src="assets/images/car/c23afbda3cb7df88c914574fe68ce1d2.jpg" alt="Card image cap">
               </a>
             </div>
             <div class="card-body px-0 py-0">
               <div class="card-head-content">
-                <h5 class="card-title">2017 HONDA CIVIC</h5>
+                <h5 class="card-title">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
               </div>
               <div class="card-content">
                 <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
@@ -455,12 +455,12 @@
             </div>
             <div class="card-footer card-footer-all px-0 text-purple py-0">
               <div class="row">
-                <div class="col-lg-9 px-0">
+                <div class="col-9 px-0">
                   <div class="text-left">
-                    <span>279,000 บาท</span>
+                    <span class="font-weight-500">279,000 บาท</span>
                   </div>
                 </div>
-                <div class="col-lg-3 px-0">
+                <div class="col-3 px-0">
                   <div class="text-right cursor-pointer">
                     <span><i onclick="myFunction(this)" class="fa fa-star-o text-gray" aria-hidden="true"></i></span>
                   </div>
@@ -472,13 +472,13 @@
         <div class="col-lg-4 col-md-6 col-12 my-3">
           <div class="card card-all">
             <div class="home-porduct-img">
-              <a href="#">
+              <a href="car-details.php">
                   <img class="card-img-top border-radius-none home-img-porduct" src="assets/images/car/i1-4580.jpg" alt="Card image cap">
               </a>
             </div>
             <div class="card-body px-0 py-0">
               <div class="card-head-content">
-                <h5 class="card-title">2017 HONDA CIVIC</h5>
+                <h5 class="card-title">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
               </div>
               <div class="card-content">
                 <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
@@ -486,12 +486,12 @@
             </div>
             <div class="card-footer card-footer-all px-0 text-purple py-0">
               <div class="row">
-                <div class="col-lg-9 px-0">
+                <div class="col-9 px-0">
                   <div class="text-left">
-                    <span>279,000 บาท</span>
+                    <span class="font-weight-500">279,000 บาท</span>
                   </div>
                 </div>
-                <div class="col-lg-3 px-0">
+                <div class="col-3 px-0">
                   <div class="text-right cursor-pointer">
                     <span><i onclick="myFunction(this)" class="fa fa-star-o text-gray" aria-hidden="true"></i></span>
                   </div>
@@ -503,13 +503,13 @@
         <div class="col-lg-4 col-md-6 col-12 my-3">
           <div class="card card-all">
             <div class="home-porduct-img">
-              <a href="#">
+              <a href="car-details.php">
                   <img class="card-img-top border-radius-none home-img-porduct" src="assets/images/car/gallardo-0638.jpg" alt="Card image cap">
               </a>
             </div>
             <div class="card-body px-0 py-0">
               <div class="card-head-content">
-                <h5 class="card-title">2017 HONDA CIVIC</h5>
+                <h5 class="card-title">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
               </div>
               <div class="card-content">
                 <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
@@ -517,12 +517,12 @@
             </div>
             <div class="card-footer card-footer-all px-0 text-purple py-0">
               <div class="row">
-                <div class="col-lg-9 px-0">
+                <div class="col-9 px-0">
                   <div class="text-left">
-                    <span>279,000 บาท</span>
+                    <span class="font-weight-500">279,000 บาท</span>
                   </div>
                 </div>
-                <div class="col-lg-3 px-0">
+                <div class="col-3 px-0">
                   <div class="text-right cursor-pointer">
                     <span><i onclick="myFunction(this)" class="fa fa-star-o text-gray" aria-hidden="true"></i></span>
                   </div>
@@ -534,13 +534,13 @@
         <div class="col-lg-4 col-md-6 col-12 my-3">
           <div class="card card-all">
             <div class="home-porduct-img">
-              <a href="#">
+              <a href="car-details.php">
                   <img class="card-img-top border-radius-none home-img-porduct" src="assets/images/car/c23afbda3cb7df88c914574fe68ce1d2.jpg" alt="Card image cap">
               </a>
             </div>
             <div class="card-body px-0 py-0">
               <div class="card-head-content">
-                <h5 class="card-title">2017 HONDA CIVIC</h5>
+                <h5 class="card-title">2016 Toyota Hilux Revo 2.4 Prerunner G Pickup</h5>
               </div>
               <div class="card-content">
                 <p class="card-text"> is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
@@ -548,12 +548,12 @@
             </div>
             <div class="card-footer card-footer-all px-0 text-purple py-0">
               <div class="row">
-                <div class="col-lg-9 px-0">
+                <div class="col-9 px-0">
                   <div class="text-left">
-                    <span>279,000 บาท</span>
+                    <span class="font-weight-500">279,000 บาท</span>
                   </div>
                 </div>
-                <div class="col-lg-3 px-0">
+                <div class="col-3 px-0">
                   <div class="text-right cursor-pointers">
                     <span><i onclick="myFunction(this)" class="fa fa-star-o text-gray" aria-hidden="true"></i></span>
                   </div>
@@ -568,7 +568,7 @@
       <div class="row mb-5">
         <div class="col-12">
           <div class="text-right">
-            <a href="#" class="btn-yellow skip home-btn-yollow">
+            <a href="show_product.php" class="btn-yellow skip home-btn-yollow">
               <span class="hover-bg reset home-btn-reset">
                 <span class="hover-text reset home-hover-text">
                   <span class="text-btn-yellow"><span>ดูทั้งหมด</span></span>
@@ -585,8 +585,138 @@
 
 
 
-      <!-- END INPUT BOTTOM BORDER -->
+    <!-- Modal Search -->
+      <div class="modal fade" id="searchCar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content modal-contact">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">ติดต่อผู้ขาย</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <form>
+                    <div class="form-group">
+                      <select class="selected-class">
+                        <option value="0" selected="selected" disabled="disabled">ยี่ห้อ</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                      </select>                
+                    </div>
+                  </form>          
+                </div>
+                <div class="col-12 col-md-6">
+                  <form>
+                    <div class="form-group">
+                      <select class="selected-class">
+                        <option value="0" selected="selected" disabled="disabled">รุ่น</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                      </select>                
+                    </div>
+                  </form>          
+                </div>
+                <div class="col-12 col-md-6">
+                  <form>
+                    <div class="form-group">
+                      <select class="selected-class">
+                        <option value="0" selected="selected" disabled="disabled">รายละเอียดรุ่น</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                      </select>                
+                    </div>
+                  </form>          
+                </div>
+                <div class="col-12 col-md-6">
+                  <form>
+                    <div class="form-group">
+                      <select class="selected-class">
+                        <option value="0" selected="selected" disabled="disabled">ภาค</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                      </select>                
+                    </div>
+                  </form>          
+                </div>
+                <div class="col-12 col-md-6">
+                  <form>
+                    <div class="form-group">
+                      <select class="selected-class">
+                        <option value="0" selected="selected" disabled="disabled">ปี</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                      </select>                
+                    </div>
+                  </form>          
+                </div>
+                <div class="col-12 col-md-6">
+                  <form>
+                    <div class="form-group">
+                      <select class="selected-class">
+                        <option value="0" selected="selected" disabled="disabled">เลขไมล์ (กม.)</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                      </select>                
+                    </div>
+                  </form>          
+                </div>
+                <div class="col-12 col-md-6">
+                  <form>
+                    <div class="form-group">
+                      <select class="selected-class">
+                        <option value="0" selected="selected" disabled="disabled">ระบบเกียร์</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                      </select>                
+                    </div>
+                  </form>          
+                </div>
+                <div class="col-12 col-md-6">
+                  <form>
+                    <div class="form-group">
+                      <select class="selected-class">
+                        <option value="0" selected="selected" disabled="disabled">ประเภทรถ</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                      </select>                
+                    </div>
+                  </form>          
+                </div>
+                <div class="col-12">
+                  <form>
+                    <div class="form-group">
+                      <select class="selected-class">
+                        <option value="0" selected="selected" disabled="disabled">สี</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                      </select>                
+                    </div>
+                  </form>          
+                </div>
+                <div class="col-12">
+                  <!-- เพิ่มราคา -->
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer mx-3">
+              <a href="show_product.php" class="btn-yellow skip w-100">
+                <span class="hover-bg reset">
+                  <span class="hover-text reset"><b class="text-btn-yellow">ค้นหา</b></span>
+                </span>
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
       
+
+      <?php include_once('inc/chat-box.php'); ?>   
+
+
     </div>
 
     <!-- START FOOTER -->

@@ -8,14 +8,14 @@
 
   <body>
 	<!-- START NAVBAR -->
-    <?php include_once('inc/navbar_2.php'); ?>
+    <?php include_once('inc/navbar.php'); ?>
     <!-- END NAVBAR -->
     <div class="wrapper">
       <div class="container">
         <div class="row my-5">
           <div class="col-lg-12">
             <div class="about_us_fix_frame">
-              <img class="w-100" src="http://www.bizcarrental.com/images/booking/img-Short-Term-Rental.jpg">
+              <img class="w-100" src="assets/images/banner-about.jpg">
             </div>
           </div>
           <div class="col-lg-12 mt-4">
@@ -41,6 +41,9 @@
           </div>    
         </div>
       </div>  
+
+    <?php include_once('inc/chat-box.php'); ?>   
+
     </div>
 
     <!-- START FOOTER -->

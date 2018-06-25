@@ -23,10 +23,11 @@
 
           <!-- start of #accordion -->
           <div class="panel-group wrap" id="accordion" role="tablist" aria-multiselectable="true">
+
             <div class="panel">
               <div class="panel-heading" role="tab" id="headingOne">
                 <h4 class="panel-title">
-              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <a class="collapsed role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                 วิธีสมัครสมาชิก Bizcar
               </a>
             </h4>
@@ -61,6 +62,7 @@
       <!-- END INPUT BOTTOM BORDER -->
       
     </div>
+    <?php include_once('inc/chat-box.php'); ?>   
     </div>
 
     <!-- START FOOTER -->
@@ -71,15 +73,7 @@
     <?php include_once('inc/footer-script.php'); ?>
 
     <script type="text/javascript">
-      $(document).ready(function() {
-        $('#accordion, #bs-collapse')
-          .on('show.bs.collapse', function(a) {
-            $(a.target).prev('.panel-heading').addClass('active');
-          })
-          .on('hide.bs.collapse', function(a) {
-            $(a.target).prev('.panel-heading').removeClass('active');
-          });
-      });
+
     </script>
     <!-- END FOOOTER SCRIPT -->
 

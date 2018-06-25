@@ -21,13 +21,14 @@
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/chatbox.css">  
 
     <link rel="stylesheet" type="text/css" href="assets/font-icon/font/flaticon.css"> 
     <link rel="stylesheet" type="text/css" href="assets/vendor/animate.css-master/animate.css"> 
     <link rel="stylesheet" type="text/css" href="assets/vendor/Hover/css/hover.css"> 
 
-
+<!-- 
     <link rel="stylesheet" type="text/css" href="assets/css/pond.css">
     <link rel="stylesheet" type="text/css" href="assets/css/gia.css">
     <link rel="stylesheet" type="text/css" href="assets/css/gack.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/boat.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/boat.css"> -->

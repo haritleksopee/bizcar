@@ -14,11 +14,11 @@
       <div class="container">
         <div class="row mt-5">
           <div class="col-lg-8">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.7832426519217!2d100.55883021529762!3d13.791936400076926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29c3add8992cb%3A0x52e7fdeb8d6fda82!2zQml6Y2FyIHJlbnRhbCDguKrguLLguILguLLguKrguLjguJfguJjguLTguKrguLLguKM!5e0!3m2!1sth!2sth!4v1529674227110" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>  
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.7832426519217!2d100.55883021529762!3d13.791936400076926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29c3add8992cb%3A0x52e7fdeb8d6fda82!2zQml6Y2FyIHJlbnRhbCDguKrguLLguILguLLguKrguLjguJfguJjguLTguKrguLLguKM!5e0!3m2!1sth!2sth!4v1529674227110" width="100%" height="450" frameborder="0"  allowfullscreen></iframe>  
           </div>
           <div class="col-lg-4">
             <div>
-              <h4>Bizcar</h4>
+              <h4 class="mt-lg-0 mt-4">Bizcar</h4>
               <p>1871 ถนนเพชรเกษม, แขวงหลักสอง, เขตบางแค, กรุงเทพฯ 10160</p>
               <p>โทร: +66 ( 0 ) 2 421 2741-5</p>
               <p>แฟกซ์: +66 ( 0 ) 2 421 1837</p>
@@ -89,6 +89,8 @@
             </a>
           </div>
       </div>
+
+    <?php include_once('inc/chat-box.php'); ?>     
     </div>
 
      
